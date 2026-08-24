@@ -10,10 +10,12 @@ import logging
 import sys
 from pathlib import Path
 
-# Add backend directory to sys.path for serverless execution on Vercel
-backend_dir = Path(__file__).resolve().parent.parent
-if str(backend_dir) not in sys.path:
-    sys.path.insert(0, str(backend_dir))
+# Add backend directory and candidates to sys.path for serverless execution on Vercel
+file_dir = Path(__file__).resolve().parent
+for p in [file_dir, file_dir.parent, Path.cwd()]:
+    s = str(p)
+    if s not in sys.path:
+        sys.path.insert(0, s)
 
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
