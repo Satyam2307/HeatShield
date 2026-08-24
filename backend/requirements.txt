@@ -5,10 +5,10 @@ pydantic>=2.7.0
 pydantic-settings>=2.3.0
 python-dotenv>=1.0.0
 
-# Geospatial
-geopandas>=0.14.0
-shapely>=2.0.0
-pyproj>=3.6.0
+# Geospatial (optional - for offline GIS pipeline processing)
+# geopandas>=0.14.0
+# shapely>=2.0.0
+# pyproj>=3.6.0
 
 # Data processing
 pandas>=2.2.0

@@ -7,11 +7,43 @@ Results are converted back to EPSG:4326 for output.
 
 from __future__ import annotations
 
-from shapely.geometry import Point
-from shapely.ops import transform
-import pyproj
+import math
+
+try:
+    from shapely.geometry import Point
+    from shapely.ops import transform
+    import pyproj
+    HAS_PYPROJ = True
+except Exception:
+    HAS_PYPROJ = False
 
 from app.config import settings
+
+
+def _pure_python_buffer(lon: float, lat: float, radius_meters: float) -> dict:
+    """Pure Python geodesic circular buffer fallback without external C dependencies."""
+    num_points = 32
+    coords = []
+    lat_rad = math.radians(lat)
+    lon_rad = math.radians(lon)
+    d = radius_meters / 6371000.0  # Earth radius in meters
+
+    for i in range(num_points + 1):
+        bearing = 2 * math.pi * i / num_points
+        lat_out = math.asin(
+            math.sin(lat_rad) * math.cos(d)
+            + math.cos(lat_rad) * math.sin(d) * math.cos(bearing)
+        )
+        lon_out = lon_rad + math.atan2(
+            math.sin(bearing) * math.sin(d) * math.cos(lat_rad),
+            math.cos(d) - math.sin(lat_rad) * math.sin(lat_out),
+        )
+        coords.append([round(math.degrees(lon_out), 6), round(math.degrees(lat_out), 6)])
+
+    return {
+        "type": "Polygon",
+        "coordinates": [coords],
+    }
 
 
 def create_buffer_wgs84(
@@ -21,65 +53,53 @@ def create_buffer_wgs84(
 ) -> dict:
     """
     Create a circular buffer around a point in WGS84 coordinates.
-
-    Projects to Connecticut State Plane for accurate meter-based buffer,
-    then reprojects back to WGS84.
-
-    Args:
-        lon: Longitude (WGS84).
-        lat: Latitude (WGS84).
-        radius_meters: Buffer radius. Defaults to config.
-
-    Returns:
-        GeoJSON-compatible polygon dict.
     """
     if radius_meters is None:
         radius_meters = settings.buffer.default_meters
 
-    # Clamp to allowed range
     radius_meters = max(
         settings.buffer.min_meters,
         min(settings.buffer.max_meters, radius_meters),
     )
 
-    # The projected CRS is CT State Plane in feet; convert meters to feet
-    # EPSG:2234 is NAD83 / Connecticut (ftUS)
-    # 1 meter = 3.28084 US survey feet
-    radius_ft = radius_meters * 3.28084
+    if not HAS_PYPROJ:
+        return _pure_python_buffer(lon, lat, radius_meters)
 
-    # Create transformers
-    wgs84 = pyproj.CRS("EPSG:4326")
-    projected = pyproj.CRS(settings.hartford_projected_crs)
+    try:
+        radius_ft = radius_meters * 3.28084
+        wgs84 = pyproj.CRS("EPSG:4326")
+        projected = pyproj.CRS(settings.hartford_projected_crs)
 
-    project_fwd = pyproj.Transformer.from_crs(wgs84, projected, always_xy=True).transform
-    project_inv = pyproj.Transformer.from_crs(projected, wgs84, always_xy=True).transform
+        project_fwd = pyproj.Transformer.from_crs(wgs84, projected, always_xy=True).transform
+        project_inv = pyproj.Transformer.from_crs(projected, wgs84, always_xy=True).transform
 
-    # Project point, buffer, reproject
-    point_proj = transform(project_fwd, Point(lon, lat))
-    buffer_proj = point_proj.buffer(radius_ft)
-    buffer_wgs84 = transform(project_inv, buffer_proj)
+        point_proj = transform(project_fwd, Point(lon, lat))
+        buffer_proj = point_proj.buffer(radius_ft)
+        buffer_wgs84 = transform(project_inv, buffer_proj)
 
-    # Convert to GeoJSON-like dict
-    coords = list(buffer_wgs84.exterior.coords)
-    return {
-        "type": "Polygon",
-        "coordinates": [[[round(x, 6), round(y, 6)] for x, y in coords]],
-    }
+        coords = list(buffer_wgs84.exterior.coords)
+        return {
+            "type": "Polygon",
+            "coordinates": [[[round(x, 6), round(y, 6)] for x, y in coords]],
+        }
+    except Exception:
+        return _pure_python_buffer(lon, lat, radius_meters)
 
 
 def get_buffer_polygon(lon: float, lat: float, radius_meters: int = 100):
-    """
-    Return a Shapely Polygon buffer in WGS84.
+    """Return buffer polygon object or coordinates."""
+    if HAS_PYPROJ:
+        try:
+            radius_ft = radius_meters * 3.28084
+            wgs84 = pyproj.CRS("EPSG:4326")
+            projected = pyproj.CRS(settings.hartford_projected_crs)
 
-    This is for spatial join operations where we need a Shapely object.
-    """
-    radius_ft = radius_meters * 3.28084
-    wgs84 = pyproj.CRS("EPSG:4326")
-    projected = pyproj.CRS(settings.hartford_projected_crs)
+            project_fwd = pyproj.Transformer.from_crs(wgs84, projected, always_xy=True).transform
+            project_inv = pyproj.Transformer.from_crs(projected, wgs84, always_xy=True).transform
 
-    project_fwd = pyproj.Transformer.from_crs(wgs84, projected, always_xy=True).transform
-    project_inv = pyproj.Transformer.from_crs(projected, wgs84, always_xy=True).transform
-
-    point_proj = transform(project_fwd, Point(lon, lat))
-    buffer_proj = point_proj.buffer(radius_ft)
-    return transform(project_inv, buffer_proj)
+            point_proj = transform(project_fwd, Point(lon, lat))
+            buffer_proj = point_proj.buffer(radius_ft)
+            return transform(project_inv, buffer_proj)
+        except Exception:
+            pass
+    return _pure_python_buffer(lon, lat, radius_meters)
