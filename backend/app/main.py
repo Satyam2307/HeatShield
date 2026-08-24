@@ -94,3 +94,10 @@ async def startup():
 @app.get("/", include_in_schema=False)
 async def root():
     return {"message": "HeatShield: ShadeStop API", "docs": "/docs"}
+
+
+try:
+    from mangum import Mangum
+    handler = Mangum(app)
+except ImportError:
+    handler = app

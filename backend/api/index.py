@@ -8,5 +8,10 @@ if str(backend_dir) not in sys.path:
 
 from app.main import app
 
-# Export app for Vercel ASGI serverless handler
-__all__ = ["app"]
+try:
+    from mangum import Mangum
+    handler = Mangum(app)
+except ImportError:
+    handler = app
+
+__all__ = ["app", "handler"]
