@@ -1,5 +1,7 @@
 """City endpoints."""
 
+from __future__ import annotations
+
 from fastapi import APIRouter
 
 from app.geospatial.boundary import load_hartford_boundary, get_hartford_bbox

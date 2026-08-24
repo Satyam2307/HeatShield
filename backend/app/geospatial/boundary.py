@@ -15,17 +15,21 @@ from app.config import BOUNDARIES_DIR
 
 def load_hartford_boundary() -> dict:
     """
-    Load Hartford city boundary GeoJSON.
-
-    Returns:
-        GeoJSON FeatureCollection dict.
-
-    Raises:
-        FileNotFoundError: If boundary file is missing.
+    Load Hartford city boundary GeoJSON with fallback candidates.
     """
-    path = BOUNDARIES_DIR / "hartford_geometry.geojson"
-    if not path.exists():
-        raise FileNotFoundError(f"Hartford boundary not found at {path}")
+    candidates = [
+        BOUNDARIES_DIR / "hartford_geometry.geojson",
+        BOUNDARIES_DIR / "hartford_geometry.json",
+        BOUNDARIES_DIR / "hartford.geojson",
+    ]
+    path = None
+    for cand in candidates:
+        if cand.exists():
+            path = cand
+            break
+
+    if not path:
+        raise FileNotFoundError(f"Hartford boundary file not found in {BOUNDARIES_DIR}")
 
     with open(path) as f:
         geojson = json.load(f)
