@@ -1,0 +1,8 @@
+{
+  "services": {
+    "web": {
+      "root": ".",
+      "framework": "nextjs"
+    }
+  }
+}
