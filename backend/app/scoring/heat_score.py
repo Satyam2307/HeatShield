@@ -7,10 +7,7 @@ composite heat score using percentile-based normalization.
 
 from __future__ import annotations
 
-import numpy as np
-
 from app.config import settings
-
 
 def percentile_normalize(values: list[float]) -> list[float]:
     """
@@ -22,25 +19,22 @@ def percentile_normalize(values: list[float]) -> list[float]:
     if not values:
         return []
 
-    arr = np.array(values, dtype=float)
-    n = len(arr)
-
+    n = len(values)
     if n == 1:
         return [50.0]
 
     # Handle case where all values are identical
-    if np.all(arr == arr[0]):
+    if all(v == values[0] for v in values):
         return [50.0] * n
 
-    # Rank-based percentile using numpy only (no scipy dependency)
-    sorted_indices = np.argsort(arr)
-    ranks = np.empty(n, dtype=float)
-    for rank_pos, idx in enumerate(sorted_indices):
-        ranks[idx] = rank_pos + 1
+    # Rank-based percentile using pure Python
+    indexed = sorted(enumerate(values), key=lambda x: x[1])
+    ranks = [0.0] * n
+    for rank_pos, (orig_idx, _) in enumerate(indexed):
+        ranks[orig_idx] = rank_pos + 1
 
-    # Convert ranks to percentiles (0–100)
-    percentiles = ((ranks - 1) / (n - 1)) * 100.0
-    return [round(float(p), 2) for p in percentiles]
+    percentiles = [round(((r - 1) / (n - 1)) * 100.0, 2) for r in ranks]
+    return percentiles
 
 
 def calculate_heat_scores(
