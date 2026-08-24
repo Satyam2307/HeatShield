@@ -1,0 +1,57 @@
+@import "maplibre-gl/dist/maplibre-gl.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #f8fafc;
+  --foreground: #0f172a;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: ui-sans-serif, system-ui, sans-serif, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  overflow-x: hidden;
+}
+
+/* Custom scrollbars for high-density dashboard layouts */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+/* MapLibre popup style fixes */
+.maplibregl-popup-content {
+  border-radius: 8px !important;
+  padding: 12px !important;
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1) !important;
+  border: 1px solid #e2e8f0;
+  font-family: inherit;
+}
+
+.maplibregl-popup-close-button {
+  padding: 4px 8px !important;
+  font-size: 16px !important;
+  color: #64748b !important;
+  outline: none !important;
+}
+
+.maplibregl-popup-close-button:hover {
+  background: transparent !important;
+  color: #0f172a !important;
+}

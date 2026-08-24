@@ -1,0 +1,23 @@
+{
+  "timestamp": "2026-08-21T17:00:46.344947+00:00",
+  "city": "Hartford",
+  "state": "CT",
+  "total_stops": 100,
+  "valid_stops": 100,
+  "duplicate_stops": 0,
+  "heat_data_coverage": 1.0,
+  "missing_intervals": 0,
+  "missing_satellite_values": 0,
+  "missing_census_values": 0,
+  "transit_source": "CTtransit Hartford GTFS Proxy",
+  "fortyguard_mode": "FortyGuard Adapter Engine",
+  "coordinate_system": "EPSG:4326 (Exchange) / EPSG:3437 (Projected 100m buffers)",
+  "analysis_period": {
+    "start": "2024-07-15T10:00:00-04:00",
+    "end": "2024-07-15T18:00:00-04:00",
+    "danger_threshold_f": 95.0
+  },
+  "output_files": [
+    "test.parquet"
+  ]
+}

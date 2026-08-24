@@ -1,0 +1,4814 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "analysis_id": "fixture-001",
+    "city": "hartford-ct",
+    "analysis_date": "2023-07-27",
+    "heat_metric": "heat_index",
+    "danger_threshold": 95.0,
+    "scoring_version": "v1.0",
+    "total_stops": 150
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0149",
+        "stop_name": "Franklin Ave at Pearl",
+        "external_stop_id": "CT-10149",
+        "heat_score": 95.64,
+        "shade_score": 87.92,
+        "vulnerability_score": 69.8,
+        "transit_score": 97.32,
+        "priority_score": 88.79,
+        "rank": 1,
+        "priority_category": "Critical",
+        "dangerous_minutes": 540.0,
+        "persistence_minutes": 540,
+        "cumulative_exceedance": 99.0,
+        "peak_hour": 14,
+        "average_heat": 106.0,
+        "maximum_heat": 113.1,
+        "shade_deficit": 0.849,
+        "route_count": 5,
+        "shelter_status": "absent",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.693537,
+          41.762331
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0065",
+        "stop_name": "Preston St at Ann",
+        "external_stop_id": "CT-10065",
+        "heat_score": 83.22,
+        "shade_score": 99.33,
+        "vulnerability_score": 90.6,
+        "transit_score": 66.44,
+        "priority_score": 86.21,
+        "rank": 2,
+        "priority_category": "Critical",
+        "dangerous_minutes": 540.0,
+        "persistence_minutes": 540,
+        "cumulative_exceedance": 89.9,
+        "peak_hour": 14,
+        "average_heat": 105.0,
+        "maximum_heat": 112.9,
+        "shade_deficit": 0.934,
+        "route_count": 3,
+        "shelter_status": "absent",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.685144,
+          41.748249
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0146",
+        "stop_name": "Russ St at Trumbull",
+        "external_stop_id": "CT-10146",
+        "heat_score": 62.75,
+        "shade_score": 94.63,
+        "vulnerability_score": 81.88,
+        "transit_score": 89.26,
+        "priority_score": 78.52,
+        "rank": 3,
+        "priority_category": "High",
+        "dangerous_minutes": 540.0,
+        "persistence_minutes": 540,
+        "cumulative_exceedance": 93.5,
+        "peak_hour": 15,
+        "average_heat": 105.4,
+        "maximum_heat": 111.4,
+        "shade_deficit": 0.87,
+        "route_count": 5,
+        "shelter_status": "absent",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.671532,
+          41.752018
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0122",
+        "stop_name": "Flatbush Ave at Arch",
+        "external_stop_id": "CT-10122",
+        "heat_score": 77.18,
+        "shade_score": 98.66,
+        "vulnerability_score": 87.25,
+        "transit_score": 34.9,
+        "priority_score": 78.22,
+        "rank": 4,
+        "priority_category": "High",
+        "dangerous_minutes": 540.0,
+        "persistence_minutes": 540,
+        "cumulative_exceedance": 103.3,
+        "peak_hour": 15,
+        "average_heat": 106.5,
+        "maximum_heat": 112.5,
+        "shade_deficit": 0.933,
+        "route_count": 2,
+        "shelter_status": "unknown",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.678344,
+          41.763199
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0015",
+        "stop_name": "Blue Hills Ave at Temple",
+        "external_stop_id": "CT-10015",
+        "heat_score": 64.43,
+        "shade_score": 97.99,
+        "vulnerability_score": 91.95,
+        "transit_score": 62.42,
+        "priority_score": 78.02,
+        "rank": 5,
+        "priority_category": "High",
+        "dangerous_minutes": 540.0,
+        "persistence_minutes": 540,
+        "cumulative_exceedance": 84.2,
+        "peak_hour": 16,
+        "average_heat": 104.4,
+        "maximum_heat": 109.4,
+        "shade_deficit": 0.916,
+        "route_count": 3,
+        "shelter_status": "absent",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.67013,
+          41.771977
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0076",
+        "stop_name": "Garden St near Hospital",
+        "external_stop_id": "CT-10076",
+        "heat_score": 91.61,
+        "shade_score": 100.0,
+        "vulnerability_score": 55.03,
+        "transit_score": 29.53,
+        "priority_score": 77.08,
+        "rank": 6,
+        "priority_category": "High",
+        "dangerous_minutes": 540.0,
+        "persistence_minutes": 540,
+        "cumulative_exceedance": 104.0,
+        "peak_hour": 15,
+        "average_heat": 106.6,
+        "maximum_heat": 113.0,
+        "shade_deficit": 0.948,
+        "route_count": 2,
+        "shelter_status": "absent",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.678815,
+          41.760778
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0087",
+        "stop_name": "Oak St at Bridge",
+        "external_stop_id": "CT-10087",
+        "heat_score": 76.84,
+        "shade_score": 69.13,
+        "vulnerability_score": 75.84,
+        "transit_score": 89.93,
+        "priority_score": 76.68,
+        "rank": 7,
+        "priority_category": "High",
+        "dangerous_minutes": 540.0,
+        "persistence_minutes": 540,
+        "cumulative_exceedance": 99.7,
+        "peak_hour": 14,
+        "average_heat": 106.1,
+        "maximum_heat": 113.1,
+        "shade_deficit": 0.794,
+        "route_count": 5,
+        "shelter_status": "absent",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.696857,
+          41.757872
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0008",
+        "stop_name": "Albany Ave at Bridge",
+        "external_stop_id": "CT-10008",
+        "heat_score": 70.14,
+        "shade_score": 95.97,
+        "vulnerability_score": 76.51,
+        "transit_score": 54.36,
+        "priority_score": 75.5,
+        "rank": 8,
+        "priority_category": "High",
+        "dangerous_minutes": 540.0,
+        "persistence_minutes": 540,
+        "cumulative_exceedance": 87.3,
+        "peak_hour": 14,
+        "average_heat": 104.7,
+        "maximum_heat": 111.3,
+        "shade_deficit": 0.874,
+        "route_count": 3,
+        "shelter_status": "absent",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.668785,
+          41.77738
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0080",
+        "stop_name": "North Main St at Ann",
+        "external_stop_id": "CT-10080",
+        "heat_score": 84.23,
+        "shade_score": 67.79,
+        "vulnerability_score": 59.06,
+        "transit_score": 86.58,
+        "priority_score": 75.44,
+        "rank": 9,
+        "priority_category": "High",
+        "dangerous_minutes": 540.0,
+        "persistence_minutes": 540,
+        "cumulative_exceedance": 94.6,
+        "peak_hour": 14,
+        "average_heat": 105.5,
+        "maximum_heat": 110.7,
+        "shade_deficit": 0.793,
+        "route_count": 4,
+        "shelter_status": "unknown",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.691824,
+          41.777107
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0128",
+        "stop_name": "Preston St near Library",
+        "external_stop_id": "CT-10128",
+        "heat_score": 70.14,
+        "shade_score": 89.26,
+        "vulnerability_score": 94.63,
+        "transit_score": 36.24,
+        "priority_score": 74.73,
+        "rank": 10,
+        "priority_category": "High",
+        "dangerous_minutes": 540.0,
+        "persistence_minutes": 540,
+        "cumulative_exceedance": 97.4,
+        "peak_hour": 14,
+        "average_heat": 105.8,
+        "maximum_heat": 111.1,
+        "shade_deficit": 0.852,
+        "route_count": 2,
+        "shelter_status": "absent",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.680941,
+          41.751952
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0061",
+        "stop_name": "Magnolia St at Central",
+        "external_stop_id": "CT-10061",
+        "heat_score": 92.95,
+        "shade_score": 84.56,
+        "vulnerability_score": 24.16,
+        "transit_score": 70.47,
+        "priority_score": 73.72,
+        "rank": 11,
+        "priority_category": "High",
+        "dangerous_minutes": 540.0,
+        "persistence_minutes": 540,
+        "cumulative_exceedance": 98.8,
+        "peak_hour": 14,
+        "average_heat": 106.0,
+        "maximum_heat": 111.6,
+        "shade_deficit": 0.842,
+        "route_count": 3,
+        "shelter_status": "absent",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.692197,
+          41.754463
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0018",
+        "stop_name": "Washington St at Plaza",
+        "external_stop_id": "CT-10018",
+        "heat_score": 80.2,
+        "shade_score": 82.55,
+        "vulnerability_score": 32.89,
+        "transit_score": 94.63,
+        "priority_score": 73.49,
+        "rank": 12,
+        "priority_category": "High",
+        "dangerous_minutes": 540.0,
+        "persistence_minutes": 540,
+        "cumulative_exceedance": 98.1,
+        "peak_hour": 14,
+        "average_heat": 105.9,
+        "maximum_heat": 113.9,
+        "shade_deficit": 0.837,
+        "route_count": 5,
+        "shelter_status": "unknown",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.696406,
+          41.766036
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0064",
+        "stop_name": "Ward St at Bridge",
+        "external_stop_id": "CT-10064",
+        "heat_score": 79.86,
+        "shade_score": 93.96,
+        "vulnerability_score": 37.58,
+        "transit_score": 67.79,
+        "priority_score": 73.12,
+        "rank": 13,
+        "priority_category": "High",
+        "dangerous_minutes": 540.0,
+        "persistence_minutes": 540,
+        "cumulative_exceedance": 87.5,
+        "peak_hour": 15,
+        "average_heat": 104.7,
+        "maximum_heat": 111.2,
+        "shade_deficit": 0.87,
+        "route_count": 3,
+        "shelter_status": "absent",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.693856,
+          41.748031
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0140",
+        "stop_name": "Sigourney St at Plaza",
+        "external_stop_id": "CT-10140",
+        "heat_score": 72.48,
+        "shade_score": 88.59,
+        "vulnerability_score": 91.28,
+        "transit_score": 24.83,
+        "priority_score": 73.12,
+        "rank": 14,
+        "priority_category": "High",
+        "dangerous_minutes": 540.0,
+        "persistence_minutes": 540,
+        "cumulative_exceedance": 108.5,
+        "peak_hour": 15,
+        "average_heat": 107.1,
+        "maximum_heat": 113.1,
+        "shade_deficit": 0.85,
+        "route_count": 2,
+        "shelter_status": "absent",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.690417,
+          41.761703
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0148",
+        "stop_name": "Franklin Ave at Church",
+        "external_stop_id": "CT-10148",
+        "heat_score": 67.78,
+        "shade_score": 71.81,
+        "vulnerability_score": 66.44,
+        "transit_score": 91.95,
+        "priority_score": 72.15,
+        "rank": 15,
+        "priority_category": "High",
+        "dangerous_minutes": 540.0,
+        "persistence_minutes": 540,
+        "cumulative_exceedance": 81.5,
+        "peak_hour": 15,
+        "average_heat": 104.1,
+        "maximum_heat": 108.1,
+        "shade_deficit": 0.802,
+        "route_count": 5,
+        "shelter_status": "absent",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.701022,
+          41.750539
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0062",
+        "stop_name": "Barbour St near Hospital",
+        "external_stop_id": "CT-10062",
+        "heat_score": 76.51,
+        "shade_score": 64.43,
+        "vulnerability_score": 74.5,
+        "transit_score": 69.8,
+        "priority_score": 72.08,
+        "rank": 16,
+        "priority_category": "High",
+        "dangerous_minutes": 540.0,
+        "persistence_minutes": 540,
+        "cumulative_exceedance": 84.4,
+        "peak_hour": 16,
+        "average_heat": 104.4,
+        "maximum_heat": 111.7,
+        "shade_deficit": 0.778,
+        "route_count": 3,
+        "shelter_status": "absent",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.669076,
+          41.769374
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0032",
+        "stop_name": "Albany Ave near School",
+        "external_stop_id": "CT-10032",
+        "heat_score": 66.1,
+        "shade_score": 91.95,
+        "vulnerability_score": 48.32,
+        "transit_score": 82.55,
+        "priority_score": 71.47,
+        "rank": 17,
+        "priority_category": "High",
+        "dangerous_minutes": 540.0,
+        "persistence_minutes": 540,
+        "cumulative_exceedance": 87.6,
+        "peak_hour": 14,
+        "average_heat": 104.7,
+        "maximum_heat": 111.2,
+        "shade_deficit": 0.857,
+        "route_count": 4,
+        "shelter_status": "unknown",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.695452,
+          41.750488
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0083",
+        "stop_name": "Capen St at Arch",
+        "external_stop_id": "CT-10083",
+        "heat_score": 68.12,
+        "shade_score": 55.03,
+        "vulnerability_score": 79.19,
+        "transit_score": 83.22,
+        "priority_score": 69.33,
+        "rank": 18,
+        "priority_category": "High",
+        "dangerous_minutes": 540.0,
+        "persistence_minutes": 540,
+        "cumulative_exceedance": 83.5,
+        "peak_hour": 15,
+        "average_heat": 104.3,
+        "maximum_heat": 108.6,
+        "shade_deficit": 0.765,
+        "route_count": 4,
+        "shelter_status": "absent",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.665043,
+          41.758506
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0112",
+        "stop_name": "Maple Ave at Elm",
+        "external_stop_id": "CT-10112",
+        "heat_score": 69.8,
+        "shade_score": 89.93,
+        "vulnerability_score": 75.17,
+        "transit_score": 20.81,
+        "priority_score": 68.56,
+        "rank": 19,
+        "priority_category": "High",
+        "dangerous_minutes": 540.0,
+        "persistence_minutes": 540,
+        "cumulative_exceedance": 92.5,
+        "peak_hour": 17,
+        "average_heat": 105.3,
+        "maximum_heat": 109.6,
+        "shade_deficit": 0.855,
+        "route_count": 2,
+        "shelter_status": "absent",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.697888,
+          41.769224
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0077",
+        "stop_name": "Preston St at Elm",
+        "external_stop_id": "CT-10077",
+        "heat_score": 74.16,
+        "shade_score": 93.29,
+        "vulnerability_score": 4.03,
+        "transit_score": 96.64,
+        "priority_score": 68.29,
+        "rank": 20,
+        "priority_category": "High",
+        "dangerous_minutes": 540.0,
+        "persistence_minutes": 540,
+        "cumulative_exceedance": 86.4,
+        "peak_hour": 15,
+        "average_heat": 104.6,
+        "maximum_heat": 110.8,
+        "shade_deficit": 0.865,
+        "route_count": 5,
+        "shelter_status": "absent",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.657519,
+          41.770693
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0071",
+        "stop_name": "Magnolia St near Hospital",
+        "external_stop_id": "CT-10071",
+        "heat_score": 75.17,
+        "shade_score": 34.9,
+        "vulnerability_score": 83.22,
+        "transit_score": 80.54,
+        "priority_score": 67.52,
+        "rank": 21,
+        "priority_category": "High",
+        "dangerous_minutes": 540.0,
+        "persistence_minutes": 540,
+        "cumulative_exceedance": 82.9,
+        "peak_hour": 15,
+        "average_heat": 104.2,
+        "maximum_heat": 110.6,
+        "shade_deficit": 0.715,
+        "route_count": 4,
+        "shelter_status": "absent",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.674403,
+          41.779595
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0115",
+        "stop_name": "Park St at Ann",
+        "external_stop_id": "CT-10115",
+        "heat_score": 58.72,
+        "shade_score": 53.02,
+        "vulnerability_score": 88.59,
+        "transit_score": 85.91,
+        "priority_score": 67.35,
+        "rank": 22,
+        "priority_category": "High",
+        "dangerous_minutes": 540.0,
+        "persistence_minutes": 540,
+        "cumulative_exceedance": 85.2,
+        "peak_hour": 15,
+        "average_heat": 104.5,
+        "maximum_heat": 110.8,
+        "shade_deficit": 0.763,
+        "route_count": 4,
+        "shelter_status": "absent",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.696265,
+          41.743819
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0041",
+        "stop_name": "Tower Ave at Market",
+        "external_stop_id": "CT-10041",
+        "heat_score": 76.18,
+        "shade_score": 91.28,
+        "vulnerability_score": 13.42,
+        "transit_score": 69.13,
+        "priority_score": 66.35,
+        "rank": 23,
+        "priority_category": "High",
+        "dangerous_minutes": 540.0,
+        "persistence_minutes": 540,
+        "cumulative_exceedance": 98.8,
+        "peak_hour": 15,
+        "average_heat": 106.0,
+        "maximum_heat": 112.9,
+        "shade_deficit": 0.856,
+        "route_count": 3,
+        "shelter_status": "absent",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.677391,
+          41.754615
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0090",
+        "stop_name": "Woodland St at Bridge",
+        "external_stop_id": "CT-10090",
+        "heat_score": 56.04,
+        "shade_score": 52.35,
+        "vulnerability_score": 89.93,
+        "transit_score": 84.56,
+        "priority_score": 66.17,
+        "rank": 24,
+        "priority_category": "High",
+        "dangerous_minutes": 540.0,
+        "persistence_minutes": 540,
+        "cumulative_exceedance": 77.8,
+        "peak_hour": 14,
+        "average_heat": 103.6,
+        "maximum_heat": 110.2,
+        "shade_deficit": 0.762,
+        "route_count": 4,
+        "shelter_status": "absent",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.6977,
+          41.778226
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0136",
+        "stop_name": "North Main St at Pearl",
+        "external_stop_id": "CT-10136",
+        "heat_score": 69.46,
+        "shade_score": 85.91,
+        "vulnerability_score": 26.85,
+        "transit_score": 75.84,
+        "priority_score": 66.01,
+        "rank": 25,
+        "priority_category": "High",
+        "dangerous_minutes": 540.0,
+        "persistence_minutes": 540,
+        "cumulative_exceedance": 99.0,
+        "peak_hour": 14,
+        "average_heat": 106.0,
+        "maximum_heat": 112.8,
+        "shade_deficit": 0.844,
+        "route_count": 4,
+        "shelter_status": "unknown",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.696304,
+          41.773642
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0113",
+        "stop_name": "Affleck St at Pearl",
+        "external_stop_id": "CT-10113",
+        "heat_score": 70.13,
+        "shade_score": 80.54,
+        "vulnerability_score": 44.3,
+        "transit_score": 58.39,
+        "priority_score": 65.81,
+        "rank": 26,
+        "priority_category": "High",
+        "dangerous_minutes": 540.0,
+        "persistence_minutes": 540,
+        "cumulative_exceedance": 106.6,
+        "peak_hour": 15,
+        "average_heat": 106.8,
+        "maximum_heat": 112.5,
+        "shade_deficit": 0.833,
+        "route_count": 3,
+        "shelter_status": "unknown",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.694849,
+          41.752529
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0132",
+        "stop_name": "Blue Hills Ave near School",
+        "external_stop_id": "CT-10132",
+        "heat_score": 51.01,
+        "shade_score": 81.21,
+        "vulnerability_score": 51.01,
+        "transit_score": 93.96,
+        "priority_score": 65.0,
+        "rank": 27,
+        "priority_category": "High",
+        "dangerous_minutes": 540.0,
+        "persistence_minutes": 540,
+        "cumulative_exceedance": 83.0,
+        "peak_hour": 14,
+        "average_heat": 104.2,
+        "maximum_heat": 108.1,
+        "shade_deficit": 0.834,
+        "route_count": 5,
+        "shelter_status": "unknown",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.692056,
+          41.782298
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0130",
+        "stop_name": "Magnolia St at Arch",
+        "external_stop_id": "CT-10130",
+        "heat_score": 60.4,
+        "shade_score": 69.8,
+        "vulnerability_score": 57.72,
+        "transit_score": 77.85,
+        "priority_score": 64.83,
+        "rank": 28,
+        "priority_category": "High",
+        "dangerous_minutes": 540.0,
+        "persistence_minutes": 540,
+        "cumulative_exceedance": 88.4,
+        "peak_hour": 16,
+        "average_heat": 104.8,
+        "maximum_heat": 109.8,
+        "shade_deficit": 0.798,
+        "route_count": 4,
+        "shelter_status": "absent",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.66323,
+          41.760726
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0038",
+        "stop_name": "Jefferson St at Ann",
+        "external_stop_id": "CT-10038",
+        "heat_score": 79.53,
+        "shade_score": 92.62,
+        "vulnerability_score": 44.97,
+        "transit_score": 4.03,
+        "priority_score": 64.57,
+        "rank": 29,
+        "priority_category": "High",
+        "dangerous_minutes": 540.0,
+        "persistence_minutes": 540,
+        "cumulative_exceedance": 103.4,
+        "peak_hour": 14,
+        "average_heat": 106.5,
+        "maximum_heat": 112.7,
+        "shade_deficit": 0.864,
+        "route_count": 1,
+        "shelter_status": "absent",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.676197,
+          41.766177
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0131",
+        "stop_name": "Hudson St at High",
+        "external_stop_id": "CT-10131",
+        "heat_score": 66.78,
+        "shade_score": 83.22,
+        "vulnerability_score": 61.07,
+        "transit_score": 26.85,
+        "priority_score": 63.76,
+        "rank": 30,
+        "priority_category": "High",
+        "dangerous_minutes": 540.0,
+        "persistence_minutes": 540,
+        "cumulative_exceedance": 94.1,
+        "peak_hour": 14,
+        "average_heat": 105.5,
+        "maximum_heat": 110.3,
+        "shade_deficit": 0.839,
+        "route_count": 2,
+        "shelter_status": "absent",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.694191,
+          41.77139
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0063",
+        "stop_name": "Russ St at Central",
+        "external_stop_id": "CT-10063",
+        "heat_score": 66.44,
+        "shade_score": 96.64,
+        "vulnerability_score": 46.98,
+        "transit_score": 21.48,
+        "priority_score": 63.35,
+        "rank": 31,
+        "priority_category": "High",
+        "dangerous_minutes": 540.0,
+        "persistence_minutes": 540,
+        "cumulative_exceedance": 79.0,
+        "peak_hour": 14,
+        "average_heat": 103.8,
+        "maximum_heat": 108.3,
+        "shade_deficit": 0.874,
+        "route_count": 2,
+        "shelter_status": "unknown",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.665868,
+          41.74579
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0003",
+        "stop_name": "Broad St at Morgan",
+        "external_stop_id": "CT-10003",
+        "heat_score": 48.32,
+        "shade_score": 53.69,
+        "vulnerability_score": 95.97,
+        "transit_score": 75.17,
+        "priority_score": 63.22,
+        "rank": 32,
+        "priority_category": "High",
+        "dangerous_minutes": 540.0,
+        "persistence_minutes": 540,
+        "cumulative_exceedance": 73.4,
+        "peak_hour": 16,
+        "average_heat": 103.2,
+        "maximum_heat": 109.3,
+        "shade_deficit": 0.764,
+        "route_count": 4,
+        "shelter_status": "absent",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.691795,
+          41.74075
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0059",
+        "stop_name": "Laurel St at Sheldon",
+        "external_stop_id": "CT-10059",
+        "heat_score": 70.8,
+        "shade_score": 87.25,
+        "vulnerability_score": 40.27,
+        "transit_score": 32.89,
+        "priority_score": 63.12,
+        "rank": 33,
+        "priority_category": "High",
+        "dangerous_minutes": 540.0,
+        "persistence_minutes": 540,
+        "cumulative_exceedance": 80.5,
+        "peak_hour": 16,
+        "average_heat": 103.9,
+        "maximum_heat": 109.6,
+        "shade_deficit": 0.848,
+        "route_count": 2,
+        "shelter_status": "unknown",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.71059,
+          41.771987
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0009",
+        "stop_name": "Homestead Ave at Commons",
+        "external_stop_id": "CT-10009",
+        "heat_score": 56.38,
+        "shade_score": 97.32,
+        "vulnerability_score": 43.62,
+        "transit_score": 46.98,
+        "priority_score": 62.65,
+        "rank": 34,
+        "priority_category": "High",
+        "dangerous_minutes": 480.0,
+        "persistence_minutes": 480,
+        "cumulative_exceedance": 101.4,
+        "peak_hour": 16,
+        "average_heat": 106.2,
+        "maximum_heat": 113.0,
+        "shade_deficit": 0.889,
+        "route_count": 2,
+        "shelter_status": "absent",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.697577,
+          41.76366
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0060",
+        "stop_name": "Sargeant St near Hospital",
+        "external_stop_id": "CT-10060",
+        "heat_score": 96.98,
+        "shade_score": 74.5,
+        "vulnerability_score": 16.11,
+        "transit_score": 11.41,
+        "priority_score": 62.35,
+        "rank": 35,
+        "priority_category": "High",
+        "dangerous_minutes": 540.0,
+        "persistence_minutes": 540,
+        "cumulative_exceedance": 106.2,
+        "peak_hour": 15,
+        "average_heat": 106.8,
+        "maximum_heat": 113.1,
+        "shade_deficit": 0.812,
+        "route_count": 1,
+        "shelter_status": "absent",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.685528,
+          41.767235
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0047",
+        "stop_name": "Tower Ave at Plaza",
+        "external_stop_id": "CT-10047",
+        "heat_score": 78.19,
+        "shade_score": 26.17,
+        "vulnerability_score": 85.91,
+        "transit_score": 48.32,
+        "priority_score": 62.25,
+        "rank": 36,
+        "priority_category": "High",
+        "dangerous_minutes": 540.0,
+        "persistence_minutes": 540,
+        "cumulative_exceedance": 91.1,
+        "peak_hour": 15,
+        "average_heat": 105.1,
+        "maximum_heat": 112.4,
+        "shade_deficit": 0.674,
+        "route_count": 2,
+        "shelter_status": "unknown",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.691399,
+          41.777625
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0028",
+        "stop_name": "Russ St near Park",
+        "external_stop_id": "CT-10028",
+        "heat_score": 42.95,
+        "shade_score": 79.19,
+        "vulnerability_score": 93.96,
+        "transit_score": 41.61,
+        "priority_score": 62.01,
+        "rank": 37,
+        "priority_category": "High",
+        "dangerous_minutes": 540.0,
+        "persistence_minutes": 540,
+        "cumulative_exceedance": 73.8,
+        "peak_hour": 15,
+        "average_heat": 103.2,
+        "maximum_heat": 110.2,
+        "shade_deficit": 0.832,
+        "route_count": 2,
+        "shelter_status": "absent",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.699503,
+          41.743203
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0074",
+        "stop_name": "Homestead Ave at Sheldon",
+        "external_stop_id": "CT-10074",
+        "heat_score": 58.39,
+        "shade_score": 72.48,
+        "vulnerability_score": 69.13,
+        "transit_score": 37.58,
+        "priority_score": 60.94,
+        "rank": 38,
+        "priority_category": "High",
+        "dangerous_minutes": 540.0,
+        "persistence_minutes": 540,
+        "cumulative_exceedance": 84.4,
+        "peak_hour": 15,
+        "average_heat": 104.4,
+        "maximum_heat": 111.1,
+        "shade_deficit": 0.803,
+        "route_count": 2,
+        "shelter_status": "absent",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.708119,
+          41.752715
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0013",
+        "stop_name": "Ward St at Temple",
+        "external_stop_id": "CT-10013",
+        "heat_score": 79.53,
+        "shade_score": 49.66,
+        "vulnerability_score": 45.64,
+        "transit_score": 44.3,
+        "priority_score": 60.0,
+        "rank": 39,
+        "priority_category": "High",
+        "dangerous_minutes": 540.0,
+        "persistence_minutes": 540,
+        "cumulative_exceedance": 94.6,
+        "peak_hour": 15,
+        "average_heat": 105.5,
+        "maximum_heat": 110.7,
+        "shade_deficit": 0.757,
+        "route_count": 2,
+        "shelter_status": "unknown",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.696447,
+          41.771244
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0079",
+        "stop_name": "Retreat Ave at Arch",
+        "external_stop_id": "CT-10079",
+        "heat_score": 77.86,
+        "shade_score": 18.12,
+        "vulnerability_score": 97.32,
+        "transit_score": 30.87,
+        "priority_score": 59.77,
+        "rank": 40,
+        "priority_category": "Moderate",
+        "dangerous_minutes": 540.0,
+        "persistence_minutes": 540,
+        "cumulative_exceedance": 89.0,
+        "peak_hour": 15,
+        "average_heat": 104.9,
+        "maximum_heat": 112.1,
+        "shade_deficit": 0.536,
+        "route_count": 2,
+        "shelter_status": "present",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.674995,
+          41.748673
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0117",
+        "stop_name": "Vine St at Pearl",
+        "external_stop_id": "CT-10117",
+        "heat_score": 69.13,
+        "shade_score": 68.46,
+        "vulnerability_score": 29.53,
+        "transit_score": 59.73,
+        "priority_score": 59.63,
+        "rank": 41,
+        "priority_category": "Moderate",
+        "dangerous_minutes": 540.0,
+        "persistence_minutes": 540,
+        "cumulative_exceedance": 93.2,
+        "peak_hour": 15,
+        "average_heat": 105.4,
+        "maximum_heat": 110.9,
+        "shade_deficit": 0.793,
+        "route_count": 3,
+        "shelter_status": "unknown",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.687642,
+          41.751879
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0085",
+        "stop_name": "Sigourney St at Market",
+        "external_stop_id": "CT-10085",
+        "heat_score": 77.85,
+        "shade_score": 44.97,
+        "vulnerability_score": 18.12,
+        "transit_score": 87.25,
+        "priority_score": 59.09,
+        "rank": 42,
+        "priority_category": "Moderate",
+        "dangerous_minutes": 540.0,
+        "persistence_minutes": 540,
+        "cumulative_exceedance": 90.0,
+        "peak_hour": 15,
+        "average_heat": 105.0,
+        "maximum_heat": 111.4,
+        "shade_deficit": 0.746,
+        "route_count": 4,
+        "shelter_status": "absent",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.671939,
+          41.781762
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0004",
+        "stop_name": "Zion St at Church",
+        "external_stop_id": "CT-10004",
+        "heat_score": 39.93,
+        "shade_score": 32.89,
+        "vulnerability_score": 99.33,
+        "transit_score": 98.66,
+        "priority_score": 58.86,
+        "rank": 43,
+        "priority_category": "Moderate",
+        "dangerous_minutes": 540.0,
+        "persistence_minutes": 540,
+        "cumulative_exceedance": 67.7,
+        "peak_hour": 15,
+        "average_heat": 102.5,
+        "maximum_heat": 107.3,
+        "shade_deficit": 0.698,
+        "route_count": 6,
+        "shelter_status": "absent",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.662151,
+          41.780243
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0118",
+        "stop_name": "Ward St at Elm",
+        "external_stop_id": "CT-10118",
+        "heat_score": 53.36,
+        "shade_score": 61.74,
+        "vulnerability_score": 34.23,
+        "transit_score": 99.33,
+        "priority_score": 58.52,
+        "rank": 44,
+        "priority_category": "Moderate",
+        "dangerous_minutes": 540.0,
+        "persistence_minutes": 540,
+        "cumulative_exceedance": 82.7,
+        "peak_hour": 16,
+        "average_heat": 104.2,
+        "maximum_heat": 112.1,
+        "shade_deficit": 0.774,
+        "route_count": 6,
+        "shelter_status": "absent",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.666724,
+          41.77243
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0086",
+        "stop_name": "Wethersfield Ave near Park",
+        "external_stop_id": "CT-10086",
+        "heat_score": 76.17,
+        "shade_score": 36.91,
+        "vulnerability_score": 25.5,
+        "transit_score": 90.6,
+        "priority_score": 58.39,
+        "rank": 45,
+        "priority_category": "Moderate",
+        "dangerous_minutes": 540.0,
+        "persistence_minutes": 540,
+        "cumulative_exceedance": 89.3,
+        "peak_hour": 15,
+        "average_heat": 104.9,
+        "maximum_heat": 111.1,
+        "shade_deficit": 0.721,
+        "route_count": 5,
+        "shelter_status": "absent",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.697972,
+          41.764361
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0035",
+        "stop_name": "Blue Hills Ave at Arch",
+        "external_stop_id": "CT-10035",
+        "heat_score": 49.66,
+        "shade_score": 83.89,
+        "vulnerability_score": 16.78,
+        "transit_score": 92.62,
+        "priority_score": 58.09,
+        "rank": 46,
+        "priority_category": "Moderate",
+        "dangerous_minutes": 540.0,
+        "persistence_minutes": 540,
+        "cumulative_exceedance": 78.3,
+        "peak_hour": 14,
+        "average_heat": 103.7,
+        "maximum_heat": 107.7,
+        "shade_deficit": 0.839,
+        "route_count": 5,
+        "shelter_status": "absent",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.709306,
+          41.758496
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0040",
+        "stop_name": "Capitol Ave at Bridge",
+        "external_stop_id": "CT-10040",
+        "heat_score": 73.83,
+        "shade_score": 39.6,
+        "vulnerability_score": 89.26,
+        "transit_score": 4.7,
+        "priority_score": 57.99,
+        "rank": 47,
+        "priority_category": "Moderate",
+        "dangerous_minutes": 540.0,
+        "persistence_minutes": 540,
+        "cumulative_exceedance": 95.2,
+        "peak_hour": 15,
+        "average_heat": 105.6,
+        "maximum_heat": 110.7,
+        "shade_deficit": 0.724,
+        "route_count": 1,
+        "shelter_status": "absent",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.67711,
+          41.770893
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0096",
+        "stop_name": "Oak St at Arch",
+        "external_stop_id": "CT-10096",
+        "heat_score": 38.59,
+        "shade_score": 65.1,
+        "vulnerability_score": 82.55,
+        "transit_score": 63.76,
+        "priority_score": 57.79,
+        "rank": 48,
+        "priority_category": "Moderate",
+        "dangerous_minutes": 540.0,
+        "persistence_minutes": 540,
+        "cumulative_exceedance": 80.0,
+        "peak_hour": 14,
+        "average_heat": 103.9,
+        "maximum_heat": 108.6,
+        "shade_deficit": 0.786,
+        "route_count": 3,
+        "shelter_status": "absent",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.699636,
+          41.784466
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0078",
+        "stop_name": "Capen St at Commons",
+        "external_stop_id": "CT-10078",
+        "heat_score": 23.16,
+        "shade_score": 77.85,
+        "vulnerability_score": 95.3,
+        "transit_score": 65.77,
+        "priority_score": 57.65,
+        "rank": 49,
+        "priority_category": "Moderate",
+        "dangerous_minutes": 480.0,
+        "persistence_minutes": 480,
+        "cumulative_exceedance": 74.4,
+        "peak_hour": 15,
+        "average_heat": 103.1,
+        "maximum_heat": 108.7,
+        "shade_deficit": 0.823,
+        "route_count": 3,
+        "shelter_status": "absent",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.688431,
+          41.790282
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0103",
+        "stop_name": "Broad St at Market",
+        "external_stop_id": "CT-10103",
+        "heat_score": 52.69,
+        "shade_score": 48.99,
+        "vulnerability_score": 92.62,
+        "transit_score": 36.91,
+        "priority_score": 57.38,
+        "rank": 50,
+        "priority_category": "Moderate",
+        "dangerous_minutes": 540.0,
+        "persistence_minutes": 540,
+        "cumulative_exceedance": 87.9,
+        "peak_hour": 15,
+        "average_heat": 104.8,
+        "maximum_heat": 113.3,
+        "shade_deficit": 0.756,
+        "route_count": 2,
+        "shelter_status": "absent",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.665107,
+          41.772001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0016",
+        "stop_name": "Main St at Church",
+        "external_stop_id": "CT-10016",
+        "heat_score": 65.77,
+        "shade_score": 73.15,
+        "vulnerability_score": 14.09,
+        "transit_score": 60.4,
+        "priority_score": 56.47,
+        "rank": 51,
+        "priority_category": "Moderate",
+        "dangerous_minutes": 540.0,
+        "persistence_minutes": 540,
+        "cumulative_exceedance": 84.5,
+        "peak_hour": 15,
+        "average_heat": 104.4,
+        "maximum_heat": 112.4,
+        "shade_deficit": 0.805,
+        "route_count": 3,
+        "shelter_status": "absent",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.697161,
+          41.7693
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0073",
+        "stop_name": "Jefferson St near Library",
+        "external_stop_id": "CT-10073",
+        "heat_score": 66.78,
+        "shade_score": 25.5,
+        "vulnerability_score": 65.77,
+        "transit_score": 65.1,
+        "priority_score": 56.01,
+        "rank": 52,
+        "priority_category": "Moderate",
+        "dangerous_minutes": 540.0,
+        "persistence_minutes": 540,
+        "cumulative_exceedance": 81.2,
+        "peak_hour": 15,
+        "average_heat": 104.0,
+        "maximum_heat": 110.3,
+        "shade_deficit": 0.673,
+        "route_count": 3,
+        "shelter_status": "absent",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.672827,
+          41.78248
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0124",
+        "stop_name": "Hudson St near School",
+        "external_stop_id": "CT-10124",
+        "heat_score": 73.49,
+        "shade_score": 0.0,
+        "vulnerability_score": 68.46,
+        "transit_score": 81.88,
+        "priority_score": 55.37,
+        "rank": 53,
+        "priority_category": "Moderate",
+        "dangerous_minutes": 540.0,
+        "persistence_minutes": 540,
+        "cumulative_exceedance": 100.3,
+        "peak_hour": 15,
+        "average_heat": 106.1,
+        "maximum_heat": 113.3,
+        "shade_deficit": 0.377,
+        "route_count": 4,
+        "shelter_status": "present",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.680338,
+          41.773603
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0134",
+        "stop_name": "New Britain Ave near Library",
+        "external_stop_id": "CT-10134",
+        "heat_score": 74.83,
+        "shade_score": 9.4,
+        "vulnerability_score": 42.28,
+        "transit_score": 93.29,
+        "priority_score": 54.73,
+        "rank": 54,
+        "priority_category": "Moderate",
+        "dangerous_minutes": 540.0,
+        "persistence_minutes": 540,
+        "cumulative_exceedance": 113.8,
+        "peak_hour": 15,
+        "average_heat": 107.6,
+        "maximum_heat": 114.2,
+        "shade_deficit": 0.458,
+        "route_count": 5,
+        "shelter_status": "present",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.692955,
+          41.764325
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0012",
+        "stop_name": "Tower Ave at High",
+        "external_stop_id": "CT-10012",
+        "heat_score": 54.37,
+        "shade_score": 44.3,
+        "vulnerability_score": 73.83,
+        "transit_score": 45.64,
+        "priority_score": 54.44,
+        "rank": 55,
+        "priority_category": "Moderate",
+        "dangerous_minutes": 540.0,
+        "persistence_minutes": 540,
+        "cumulative_exceedance": 77.9,
+        "peak_hour": 15,
+        "average_heat": 103.7,
+        "maximum_heat": 109.3,
+        "shade_deficit": 0.743,
+        "route_count": 2,
+        "shelter_status": "absent",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.655384,
+          41.763449
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0082",
+        "stop_name": "Blue Hills Ave at Sheldon",
+        "external_stop_id": "CT-10082",
+        "heat_score": 55.03,
+        "shade_score": 70.47,
+        "vulnerability_score": 49.66,
+        "transit_score": 32.21,
+        "priority_score": 54.39,
+        "rank": 56,
+        "priority_category": "Moderate",
+        "dangerous_minutes": 540.0,
+        "persistence_minutes": 540,
+        "cumulative_exceedance": 75.9,
+        "peak_hour": 16,
+        "average_heat": 103.4,
+        "maximum_heat": 109.1,
+        "shade_deficit": 0.798,
+        "route_count": 2,
+        "shelter_status": "absent",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.683913,
+          41.738118
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0024",
+        "stop_name": "Zion St at Market",
+        "external_stop_id": "CT-10024",
+        "heat_score": 45.98,
+        "shade_score": 48.32,
+        "vulnerability_score": 71.81,
+        "transit_score": 63.09,
+        "priority_score": 54.3,
+        "rank": 57,
+        "priority_category": "Moderate",
+        "dangerous_minutes": 480.0,
+        "persistence_minutes": 480,
+        "cumulative_exceedance": 87.3,
+        "peak_hour": 15,
+        "average_heat": 104.6,
+        "maximum_heat": 110.3,
+        "shade_deficit": 0.753,
+        "route_count": 3,
+        "shelter_status": "absent",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.686342,
+          41.748131
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0033",
+        "stop_name": "Zion St at Elm",
+        "external_stop_id": "CT-10033",
+        "heat_score": 24.83,
+        "shade_score": 61.07,
+        "vulnerability_score": 78.52,
+        "transit_score": 88.59,
+        "priority_score": 54.19,
+        "rank": 58,
+        "priority_category": "Moderate",
+        "dangerous_minutes": 480.0,
+        "persistence_minutes": 480,
+        "cumulative_exceedance": 81.9,
+        "peak_hour": 15,
+        "average_heat": 104.1,
+        "maximum_heat": 110.6,
+        "shade_deficit": 0.772,
+        "route_count": 5,
+        "shelter_status": "unknown",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.706832,
+          41.775433
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0097",
+        "stop_name": "Capen St near Library",
+        "external_stop_id": "CT-10097",
+        "heat_score": 56.04,
+        "shade_score": 18.79,
+        "vulnerability_score": 86.58,
+        "transit_score": 61.07,
+        "priority_score": 53.59,
+        "rank": 59,
+        "priority_category": "Moderate",
+        "dangerous_minutes": 540.0,
+        "persistence_minutes": 540,
+        "cumulative_exceedance": 91.0,
+        "peak_hour": 15,
+        "average_heat": 105.1,
+        "maximum_heat": 110.8,
+        "shade_deficit": 0.538,
+        "route_count": 3,
+        "shelter_status": "present",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.700963,
+          41.749964
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0123",
+        "stop_name": "Main St at Commons",
+        "external_stop_id": "CT-10123",
+        "heat_score": 76.84,
+        "shade_score": 20.13,
+        "vulnerability_score": 65.1,
+        "transit_score": 31.54,
+        "priority_score": 53.52,
+        "rank": 60,
+        "priority_category": "Moderate",
+        "dangerous_minutes": 540.0,
+        "persistence_minutes": 540,
+        "cumulative_exceedance": 110.1,
+        "peak_hour": 14,
+        "average_heat": 107.2,
+        "maximum_heat": 112.5,
+        "shade_deficit": 0.559,
+        "route_count": 2,
+        "shelter_status": "present",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.687537,
+          41.766905
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0019",
+        "stop_name": "Oak St at Market",
+        "external_stop_id": "CT-10019",
+        "heat_score": 81.55,
+        "shade_score": 65.77,
+        "vulnerability_score": 11.41,
+        "transit_score": 14.09,
+        "priority_score": 53.46,
+        "rank": 61,
+        "priority_category": "Moderate",
+        "dangerous_minutes": 540.0,
+        "persistence_minutes": 540,
+        "cumulative_exceedance": 99.4,
+        "peak_hour": 16,
+        "average_heat": 106.0,
+        "maximum_heat": 110.9,
+        "shade_deficit": 0.786,
+        "route_count": 1,
+        "shelter_status": "absent",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.694198,
+          41.774615
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0026",
+        "stop_name": "Retreat Ave near Park",
+        "external_stop_id": "CT-10026",
+        "heat_score": 83.22,
+        "shade_score": 11.41,
+        "vulnerability_score": 54.36,
+        "transit_score": 42.28,
+        "priority_score": 53.35,
+        "rank": 62,
+        "priority_category": "Moderate",
+        "dangerous_minutes": 540.0,
+        "persistence_minutes": 540,
+        "cumulative_exceedance": 107.3,
+        "peak_hour": 14,
+        "average_heat": 106.9,
+        "maximum_heat": 112.7,
+        "shade_deficit": 0.482,
+        "route_count": 2,
+        "shelter_status": "present",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.691701,
+          41.771475
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0093",
+        "stop_name": "Zion St near Library",
+        "external_stop_id": "CT-10093",
+        "heat_score": 42.95,
+        "shade_score": 95.3,
+        "vulnerability_score": 35.57,
+        "transit_score": 33.56,
+        "priority_score": 53.15,
+        "rank": 63,
+        "priority_category": "Moderate",
+        "dangerous_minutes": 540.0,
+        "persistence_minutes": 540,
+        "cumulative_exceedance": 81.2,
+        "peak_hour": 14,
+        "average_heat": 104.0,
+        "maximum_heat": 109.6,
+        "shade_deficit": 0.872,
+        "route_count": 2,
+        "shelter_status": "unknown",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.672021,
+          41.773187
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0108",
+        "stop_name": "Woodland St at Pearl",
+        "external_stop_id": "CT-10108",
+        "heat_score": 44.97,
+        "shade_score": 14.77,
+        "vulnerability_score": 77.85,
+        "transit_score": 100.0,
+        "priority_score": 52.25,
+        "rank": 64,
+        "priority_category": "Moderate",
+        "dangerous_minutes": 480.0,
+        "persistence_minutes": 480,
+        "cumulative_exceedance": 91.2,
+        "peak_hour": 15,
+        "average_heat": 105.1,
+        "maximum_heat": 112.0,
+        "shade_deficit": 0.525,
+        "route_count": 6,
+        "shelter_status": "present",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.703601,
+          41.769896
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0017",
+        "stop_name": "Wethersfield Ave at Central",
+        "external_stop_id": "CT-10017",
+        "heat_score": 79.19,
+        "shade_score": 31.54,
+        "vulnerability_score": 30.2,
+        "transit_score": 43.62,
+        "priority_score": 52.14,
+        "rank": 65,
+        "priority_category": "Moderate",
+        "dangerous_minutes": 540.0,
+        "persistence_minutes": 540,
+        "cumulative_exceedance": 96.0,
+        "peak_hour": 14,
+        "average_heat": 105.7,
+        "maximum_heat": 113.2,
+        "shade_deficit": 0.693,
+        "route_count": 2,
+        "shelter_status": "absent",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.69619,
+          41.77474
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0068",
+        "stop_name": "Mather St at Gold",
+        "external_stop_id": "CT-10068",
+        "heat_score": 82.89,
+        "shade_score": 43.62,
+        "vulnerability_score": 33.56,
+        "transit_score": 7.38,
+        "priority_score": 51.88,
+        "rank": 66,
+        "priority_category": "Moderate",
+        "dangerous_minutes": 540.0,
+        "persistence_minutes": 540,
+        "cumulative_exceedance": 90.5,
+        "peak_hour": 16,
+        "average_heat": 105.1,
+        "maximum_heat": 110.1,
+        "shade_deficit": 0.742,
+        "route_count": 1,
+        "shelter_status": "unknown",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.681854,
+          41.750127
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0094",
+        "stop_name": "Sigourney St at Pearl",
+        "external_stop_id": "CT-10094",
+        "heat_score": 63.42,
+        "shade_score": 77.18,
+        "vulnerability_score": 9.4,
+        "transit_score": 34.23,
+        "priority_score": 51.68,
+        "rank": 67,
+        "priority_category": "Moderate",
+        "dangerous_minutes": 540.0,
+        "persistence_minutes": 540,
+        "cumulative_exceedance": 95.5,
+        "peak_hour": 15,
+        "average_heat": 105.6,
+        "maximum_heat": 113.1,
+        "shade_deficit": 0.82,
+        "route_count": 2,
+        "shelter_status": "absent",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.675674,
+          41.754983
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0099",
+        "stop_name": "Ward St at Morgan",
+        "external_stop_id": "CT-10099",
+        "heat_score": 46.31,
+        "shade_score": 54.36,
+        "vulnerability_score": 70.47,
+        "transit_score": 35.57,
+        "priority_score": 51.54,
+        "rank": 68,
+        "priority_category": "Moderate",
+        "dangerous_minutes": 480.0,
+        "persistence_minutes": 480,
+        "cumulative_exceedance": 89.9,
+        "peak_hour": 14,
+        "average_heat": 104.9,
+        "maximum_heat": 110.6,
+        "shade_deficit": 0.765,
+        "route_count": 2,
+        "shelter_status": "absent",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.669417,
+          41.753985
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0145",
+        "stop_name": "Russ St at Morgan",
+        "external_stop_id": "CT-10145",
+        "heat_score": 48.99,
+        "shade_score": 79.87,
+        "vulnerability_score": 20.81,
+        "transit_score": 51.68,
+        "priority_score": 51.48,
+        "rank": 69,
+        "priority_category": "Moderate",
+        "dangerous_minutes": 540.0,
+        "persistence_minutes": 540,
+        "cumulative_exceedance": 83.8,
+        "peak_hour": 16,
+        "average_heat": 104.3,
+        "maximum_heat": 111.2,
+        "shade_deficit": 0.832,
+        "route_count": 3,
+        "shelter_status": "unknown",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.682558,
+          41.749707
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0120",
+        "stop_name": "Farmington Ave near Library",
+        "external_stop_id": "CT-10120",
+        "heat_score": 71.14,
+        "shade_score": 59.73,
+        "vulnerability_score": 23.49,
+        "transit_score": 20.13,
+        "priority_score": 51.11,
+        "rank": 70,
+        "priority_category": "Moderate",
+        "dangerous_minutes": 540.0,
+        "persistence_minutes": 540,
+        "cumulative_exceedance": 97.3,
+        "peak_hour": 16,
+        "average_heat": 105.8,
+        "maximum_heat": 110.0,
+        "shade_deficit": 0.77,
+        "route_count": 2,
+        "shelter_status": "absent",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.673009,
+          41.765487
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0045",
+        "stop_name": "Babcock St at Central",
+        "external_stop_id": "CT-10045",
+        "heat_score": 70.47,
+        "shade_score": 17.45,
+        "vulnerability_score": 20.13,
+        "transit_score": 95.3,
+        "priority_score": 50.87,
+        "rank": 71,
+        "priority_category": "Moderate",
+        "dangerous_minutes": 540.0,
+        "persistence_minutes": 540,
+        "cumulative_exceedance": 89.6,
+        "peak_hour": 15,
+        "average_heat": 105.0,
+        "maximum_heat": 112.7,
+        "shade_deficit": 0.536,
+        "route_count": 5,
+        "shelter_status": "present",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.668677,
+          41.772924
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0081",
+        "stop_name": "Asylum St at Pearl",
+        "external_stop_id": "CT-10081",
+        "heat_score": 56.38,
+        "shade_score": 19.46,
+        "vulnerability_score": 63.09,
+        "transit_score": 68.46,
+        "priority_score": 50.3,
+        "rank": 72,
+        "priority_category": "Moderate",
+        "dangerous_minutes": 540.0,
+        "persistence_minutes": 540,
+        "cumulative_exceedance": 76.7,
+        "peak_hour": 15,
+        "average_heat": 103.5,
+        "maximum_heat": 109.9,
+        "shade_deficit": 0.549,
+        "route_count": 3,
+        "shelter_status": "present",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.655863,
+          41.771697
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0021",
+        "stop_name": "Woodland St at Gold",
+        "external_stop_id": "CT-10021",
+        "heat_score": 55.04,
+        "shade_score": 40.27,
+        "vulnerability_score": 81.21,
+        "transit_score": 12.75,
+        "priority_score": 50.24,
+        "rank": 73,
+        "priority_category": "Moderate",
+        "dangerous_minutes": 540.0,
+        "persistence_minutes": 540,
+        "cumulative_exceedance": 79.4,
+        "peak_hour": 15,
+        "average_heat": 103.8,
+        "maximum_heat": 108.2,
+        "shade_deficit": 0.734,
+        "route_count": 1,
+        "shelter_status": "unknown",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.705952,
+          41.757505
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0029",
+        "stop_name": "Broad St near Hospital",
+        "external_stop_id": "CT-10029",
+        "heat_score": 44.97,
+        "shade_score": 24.83,
+        "vulnerability_score": 97.99,
+        "transit_score": 40.94,
+        "priority_score": 49.93,
+        "rank": 74,
+        "priority_category": "Moderate",
+        "dangerous_minutes": 540.0,
+        "persistence_minutes": 540,
+        "cumulative_exceedance": 75.3,
+        "peak_hour": 15,
+        "average_heat": 103.4,
+        "maximum_heat": 108.0,
+        "shade_deficit": 0.673,
+        "route_count": 2,
+        "shelter_status": "absent",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.662128,
+          41.746805
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0119",
+        "stop_name": "Vine St at Arch",
+        "external_stop_id": "CT-10119",
+        "heat_score": 65.1,
+        "shade_score": 75.84,
+        "vulnerability_score": 10.07,
+        "transit_score": 19.46,
+        "priority_score": 49.93,
+        "rank": 75,
+        "priority_category": "Moderate",
+        "dangerous_minutes": 540.0,
+        "persistence_minutes": 540,
+        "cumulative_exceedance": 90.5,
+        "peak_hour": 15,
+        "average_heat": 105.1,
+        "maximum_heat": 111.3,
+        "shade_deficit": 0.814,
+        "route_count": 1,
+        "shelter_status": "absent",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.665355,
+          41.764171
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0126",
+        "stop_name": "Maple Ave at Central",
+        "external_stop_id": "CT-10126",
+        "heat_score": 28.52,
+        "shade_score": 76.51,
+        "vulnerability_score": 53.69,
+        "transit_score": 56.38,
+        "priority_score": 49.73,
+        "rank": 76,
+        "priority_category": "Moderate",
+        "dangerous_minutes": 480.0,
+        "persistence_minutes": 480,
+        "cumulative_exceedance": 84.0,
+        "peak_hour": 14,
+        "average_heat": 104.3,
+        "maximum_heat": 108.6,
+        "shade_deficit": 0.817,
+        "route_count": 3,
+        "shelter_status": "absent",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.674641,
+          41.749836
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0106",
+        "stop_name": "Park St at Arch",
+        "external_stop_id": "CT-10106",
+        "heat_score": 22.14,
+        "shade_score": 58.39,
+        "vulnerability_score": 62.42,
+        "transit_score": 91.28,
+        "priority_score": 49.63,
+        "rank": 77,
+        "priority_category": "Moderate",
+        "dangerous_minutes": 480.0,
+        "persistence_minutes": 480,
+        "cumulative_exceedance": 78.4,
+        "peak_hour": 14,
+        "average_heat": 103.6,
+        "maximum_heat": 110.5,
+        "shade_deficit": 0.768,
+        "route_count": 5,
+        "shelter_status": "absent",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.68525,
+          41.746431
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0133",
+        "stop_name": "Blue Hills Ave at Gold",
+        "external_stop_id": "CT-10133",
+        "heat_score": 26.51,
+        "shade_score": 46.98,
+        "vulnerability_score": 77.18,
+        "transit_score": 77.18,
+        "priority_score": 49.36,
+        "rank": 78,
+        "priority_category": "Moderate",
+        "dangerous_minutes": 480.0,
+        "persistence_minutes": 480,
+        "cumulative_exceedance": 74.9,
+        "peak_hour": 16,
+        "average_heat": 103.1,
+        "maximum_heat": 109.1,
+        "shade_deficit": 0.753,
+        "route_count": 4,
+        "shelter_status": "absent",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.651211,
+          41.749806
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0022",
+        "stop_name": "Hudson St at Pearl",
+        "external_stop_id": "CT-10022",
+        "heat_score": 21.82,
+        "shade_score": 35.57,
+        "vulnerability_score": 84.56,
+        "transit_score": 97.99,
+        "priority_score": 49.23,
+        "rank": 79,
+        "priority_category": "Moderate",
+        "dangerous_minutes": 480.0,
+        "persistence_minutes": 480,
+        "cumulative_exceedance": 73.3,
+        "peak_hour": 15,
+        "average_heat": 103.0,
+        "maximum_heat": 108.8,
+        "shade_deficit": 0.718,
+        "route_count": 6,
+        "shelter_status": "absent",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.653342,
+          41.740311
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0058",
+        "stop_name": "Tower Ave at Ann",
+        "external_stop_id": "CT-10058",
+        "heat_score": 23.16,
+        "shade_score": 51.68,
+        "vulnerability_score": 79.87,
+        "transit_score": 73.83,
+        "priority_score": 49.23,
+        "rank": 80,
+        "priority_category": "Moderate",
+        "dangerous_minutes": 480.0,
+        "persistence_minutes": 480,
+        "cumulative_exceedance": 77.6,
+        "peak_hour": 14,
+        "average_heat": 103.5,
+        "maximum_heat": 109.1,
+        "shade_deficit": 0.761,
+        "route_count": 3,
+        "shelter_status": "unknown",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.653828,
+          41.742151
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0020",
+        "stop_name": "Jefferson St at Elm",
+        "external_stop_id": "CT-10020",
+        "heat_score": 62.41,
+        "shade_score": 38.93,
+        "vulnerability_score": 22.82,
+        "transit_score": 59.06,
+        "priority_score": 48.12,
+        "rank": 81,
+        "priority_category": "Moderate",
+        "dangerous_minutes": 540.0,
+        "persistence_minutes": 540,
+        "cumulative_exceedance": 81.2,
+        "peak_hour": 15,
+        "average_heat": 104.0,
+        "maximum_heat": 109.0,
+        "shade_deficit": 0.723,
+        "route_count": 3,
+        "shelter_status": "absent",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.679019,
+          41.783275
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0052",
+        "stop_name": "New Britain Ave at Gold",
+        "external_stop_id": "CT-10052",
+        "heat_score": 60.07,
+        "shade_score": 46.31,
+        "vulnerability_score": 4.7,
+        "transit_score": 76.51,
+        "priority_score": 48.02,
+        "rank": 82,
+        "priority_category": "Moderate",
+        "dangerous_minutes": 540.0,
+        "persistence_minutes": 540,
+        "cumulative_exceedance": 79.3,
+        "peak_hour": 16,
+        "average_heat": 103.8,
+        "maximum_heat": 109.0,
+        "shade_deficit": 0.749,
+        "route_count": 4,
+        "shelter_status": "unknown",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.6573,
+          41.760195
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0091",
+        "stop_name": "Prospect St at Elm",
+        "external_stop_id": "CT-10091",
+        "heat_score": 45.3,
+        "shade_score": 59.06,
+        "vulnerability_score": 12.08,
+        "transit_score": 83.89,
+        "priority_score": 47.88,
+        "rank": 83,
+        "priority_category": "Moderate",
+        "dangerous_minutes": 540.0,
+        "persistence_minutes": 540,
+        "cumulative_exceedance": 84.4,
+        "peak_hour": 14,
+        "average_heat": 104.4,
+        "maximum_heat": 109.2,
+        "shade_deficit": 0.768,
+        "route_count": 4,
+        "shelter_status": "unknown",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.679437,
+          41.776014
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0031",
+        "stop_name": "Barbour St at Commons",
+        "external_stop_id": "CT-10031",
+        "heat_score": 29.2,
+        "shade_score": 71.14,
+        "vulnerability_score": 61.74,
+        "transit_score": 38.93,
+        "priority_score": 47.65,
+        "rank": 84,
+        "priority_category": "Moderate",
+        "dangerous_minutes": 480.0,
+        "persistence_minutes": 480,
+        "cumulative_exceedance": 79.6,
+        "peak_hour": 14,
+        "average_heat": 103.7,
+        "maximum_heat": 110.7,
+        "shade_deficit": 0.8,
+        "route_count": 2,
+        "shelter_status": "absent",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.658715,
+          41.750417
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0069",
+        "stop_name": "Sigourney St at Church",
+        "external_stop_id": "CT-10069",
+        "heat_score": 52.69,
+        "shade_score": 78.52,
+        "vulnerability_score": 10.74,
+        "transit_score": 26.17,
+        "priority_score": 46.78,
+        "rank": 85,
+        "priority_category": "Moderate",
+        "dangerous_minutes": 540.0,
+        "persistence_minutes": 540,
+        "cumulative_exceedance": 72.1,
+        "peak_hour": 14,
+        "average_heat": 103.0,
+        "maximum_heat": 107.3,
+        "shade_deficit": 0.829,
+        "route_count": 2,
+        "shelter_status": "unknown",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.680369,
+          41.738114
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0057",
+        "stop_name": "Homestead Ave at Morgan",
+        "external_stop_id": "CT-10057",
+        "heat_score": 27.18,
+        "shade_score": 62.42,
+        "vulnerability_score": 51.68,
+        "transit_score": 64.43,
+        "priority_score": 46.48,
+        "rank": 86,
+        "priority_category": "Moderate",
+        "dangerous_minutes": 480.0,
+        "persistence_minutes": 480,
+        "cumulative_exceedance": 79.5,
+        "peak_hour": 16,
+        "average_heat": 103.8,
+        "maximum_heat": 109.8,
+        "shade_deficit": 0.774,
+        "route_count": 3,
+        "shelter_status": "absent",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.692319,
+          41.78859
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0023",
+        "stop_name": "Babcock St at Ann",
+        "external_stop_id": "CT-10023",
+        "heat_score": 45.98,
+        "shade_score": 32.21,
+        "vulnerability_score": 67.79,
+        "transit_score": 42.95,
+        "priority_score": 46.45,
+        "rank": 87,
+        "priority_category": "Moderate",
+        "dangerous_minutes": 480.0,
+        "persistence_minutes": 480,
+        "cumulative_exceedance": 87.4,
+        "peak_hour": 15,
+        "average_heat": 104.4,
+        "maximum_heat": 110.1,
+        "shade_deficit": 0.693,
+        "route_count": 2,
+        "shelter_status": "unknown",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.705077,
+          41.775905
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0072",
+        "stop_name": "Preston St near School",
+        "external_stop_id": "CT-10072",
+        "heat_score": 58.72,
+        "shade_score": 4.03,
+        "vulnerability_score": 87.92,
+        "transit_score": 28.19,
+        "priority_score": 46.31,
+        "rank": 88,
+        "priority_category": "Moderate",
+        "dangerous_minutes": 540.0,
+        "persistence_minutes": 540,
+        "cumulative_exceedance": 76.0,
+        "peak_hour": 16,
+        "average_heat": 103.4,
+        "maximum_heat": 108.9,
+        "shade_deficit": 0.438,
+        "route_count": 2,
+        "shelter_status": "present",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.656476,
+          41.781107
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0001",
+        "stop_name": "Zion St near Hospital",
+        "external_stop_id": "CT-10001",
+        "heat_score": 43.96,
+        "shade_score": 42.28,
+        "vulnerability_score": 52.35,
+        "transit_score": 49.66,
+        "priority_score": 46.07,
+        "rank": 89,
+        "priority_category": "Moderate",
+        "dangerous_minutes": 480.0,
+        "persistence_minutes": 480,
+        "cumulative_exceedance": 85.2,
+        "peak_hour": 15,
+        "average_heat": 104.4,
+        "maximum_heat": 109.4,
+        "shade_deficit": 0.737,
+        "route_count": 2,
+        "shelter_status": "absent",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.700473,
+          41.775293
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0109",
+        "stop_name": "Retreat Ave at Plaza",
+        "external_stop_id": "CT-10109",
+        "heat_score": 33.55,
+        "shade_score": 81.88,
+        "vulnerability_score": 42.95,
+        "transit_score": 22.82,
+        "priority_score": 45.9,
+        "rank": 90,
+        "priority_category": "Moderate",
+        "dangerous_minutes": 540.0,
+        "persistence_minutes": 540,
+        "cumulative_exceedance": 78.3,
+        "peak_hour": 16,
+        "average_heat": 103.7,
+        "maximum_heat": 109.0,
+        "shade_deficit": 0.836,
+        "route_count": 2,
+        "shelter_status": "unknown",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.66484,
+          41.772592
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0129",
+        "stop_name": "Magnolia St at High",
+        "external_stop_id": "CT-10129",
+        "heat_score": 9.73,
+        "shade_score": 42.95,
+        "vulnerability_score": 96.64,
+        "transit_score": 78.52,
+        "priority_score": 45.74,
+        "rank": 91,
+        "priority_category": "Moderate",
+        "dangerous_minutes": 480.0,
+        "persistence_minutes": 480,
+        "cumulative_exceedance": 67.9,
+        "peak_hour": 17,
+        "average_heat": 102.2,
+        "maximum_heat": 107.9,
+        "shade_deficit": 0.737,
+        "route_count": 4,
+        "shelter_status": "absent",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.688834,
+          41.792156
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0011",
+        "stop_name": "Flatbush Ave at Market",
+        "external_stop_id": "CT-10011",
+        "heat_score": 36.91,
+        "shade_score": 67.11,
+        "vulnerability_score": 26.17,
+        "transit_score": 57.72,
+        "priority_score": 45.43,
+        "rank": 92,
+        "priority_category": "Moderate",
+        "dangerous_minutes": 480.0,
+        "persistence_minutes": 480,
+        "cumulative_exceedance": 82.1,
+        "peak_hour": 15,
+        "average_heat": 104.1,
+        "maximum_heat": 109.2,
+        "shade_deficit": 0.79,
+        "route_count": 3,
+        "shelter_status": "absent",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.655472,
+          41.770165
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0027",
+        "stop_name": "Albany Ave at Plaza",
+        "external_stop_id": "CT-10027",
+        "heat_score": 60.07,
+        "shade_score": 57.72,
+        "vulnerability_score": 6.04,
+        "transit_score": 38.26,
+        "priority_score": 45.4,
+        "rank": 93,
+        "priority_category": "Moderate",
+        "dangerous_minutes": 540.0,
+        "persistence_minutes": 540,
+        "cumulative_exceedance": 83.2,
+        "peak_hour": 14,
+        "average_heat": 104.2,
+        "maximum_heat": 108.7,
+        "shade_deficit": 0.768,
+        "route_count": 2,
+        "shelter_status": "absent",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.673241,
+          41.749194
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0006",
+        "stop_name": "Farmington Ave at Gold",
+        "external_stop_id": "CT-10006",
+        "heat_score": 19.46,
+        "shade_score": 50.34,
+        "vulnerability_score": 60.4,
+        "transit_score": 81.21,
+        "priority_score": 44.63,
+        "rank": 94,
+        "priority_category": "Moderate",
+        "dangerous_minutes": 480.0,
+        "persistence_minutes": 480,
+        "cumulative_exceedance": 73.2,
+        "peak_hour": 14,
+        "average_heat": 103.1,
+        "maximum_heat": 109.6,
+        "shade_deficit": 0.758,
+        "route_count": 4,
+        "shelter_status": "absent",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.67134,
+          41.78293
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0036",
+        "stop_name": "Babcock St near Library",
+        "external_stop_id": "CT-10036",
+        "heat_score": 63.76,
+        "shade_score": 51.01,
+        "vulnerability_score": 27.52,
+        "transit_score": 3.36,
+        "priority_score": 44.26,
+        "rank": 95,
+        "priority_category": "Moderate",
+        "dangerous_minutes": 540.0,
+        "persistence_minutes": 540,
+        "cumulative_exceedance": 87.3,
+        "peak_hour": 15,
+        "average_heat": 104.7,
+        "maximum_heat": 110.0,
+        "shade_deficit": 0.76,
+        "route_count": 1,
+        "shelter_status": "absent",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.695029,
+          41.778189
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0101",
+        "stop_name": "Barbour St at Sheldon",
+        "external_stop_id": "CT-10101",
+        "heat_score": 27.86,
+        "shade_score": 86.58,
+        "vulnerability_score": 55.7,
+        "transit_score": 1.34,
+        "priority_score": 44.13,
+        "rank": 96,
+        "priority_category": "Moderate",
+        "dangerous_minutes": 540.0,
+        "persistence_minutes": 540,
+        "cumulative_exceedance": 73.0,
+        "peak_hour": 16,
+        "average_heat": 103.1,
+        "maximum_heat": 107.7,
+        "shade_deficit": 0.847,
+        "route_count": 1,
+        "shelter_status": "absent",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.697162,
+          41.742481
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0053",
+        "stop_name": "Asylum St at Ann",
+        "external_stop_id": "CT-10053",
+        "heat_score": 10.74,
+        "shade_score": 40.94,
+        "vulnerability_score": 93.29,
+        "transit_score": 71.81,
+        "priority_score": 43.96,
+        "rank": 97,
+        "priority_category": "Moderate",
+        "dangerous_minutes": 480.0,
+        "persistence_minutes": 480,
+        "cumulative_exceedance": 70.3,
+        "peak_hour": 16,
+        "average_heat": 102.7,
+        "maximum_heat": 108.6,
+        "shade_deficit": 0.735,
+        "route_count": 3,
+        "shelter_status": "absent",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.661921,
+          41.789648
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0014",
+        "stop_name": "Park St at Church",
+        "external_stop_id": "CT-10014",
+        "heat_score": 71.48,
+        "shade_score": 21.48,
+        "vulnerability_score": 36.24,
+        "transit_score": 18.12,
+        "priority_score": 43.93,
+        "rank": 98,
+        "priority_category": "Moderate",
+        "dangerous_minutes": 540.0,
+        "persistence_minutes": 540,
+        "cumulative_exceedance": 88.2,
+        "peak_hour": 14,
+        "average_heat": 104.8,
+        "maximum_heat": 110.4,
+        "shade_deficit": 0.589,
+        "route_count": 1,
+        "shelter_status": "present",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.704285,
+          41.765598
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0105",
+        "stop_name": "Broad St at Elm",
+        "external_stop_id": "CT-10105",
+        "heat_score": 41.61,
+        "shade_score": 30.87,
+        "vulnerability_score": 56.38,
+        "transit_score": 55.03,
+        "priority_score": 43.89,
+        "rank": 99,
+        "priority_category": "Moderate",
+        "dangerous_minutes": 540.0,
+        "persistence_minutes": 540,
+        "cumulative_exceedance": 81.9,
+        "peak_hour": 15,
+        "average_heat": 104.1,
+        "maximum_heat": 112.0,
+        "shade_deficit": 0.692,
+        "route_count": 3,
+        "shelter_status": "absent",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.672814,
+          41.781673
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0066",
+        "stop_name": "Barbour St at High",
+        "external_stop_id": "CT-10066",
+        "heat_score": 85.23,
+        "shade_score": 20.81,
+        "vulnerability_score": 12.75,
+        "transit_score": 10.74,
+        "priority_score": 43.46,
+        "rank": 100,
+        "priority_category": "Moderate",
+        "dangerous_minutes": 540.0,
+        "persistence_minutes": 540,
+        "cumulative_exceedance": 91.5,
+        "peak_hour": 16,
+        "average_heat": 105.2,
+        "maximum_heat": 110.4,
+        "shade_deficit": 0.568,
+        "route_count": 1,
+        "shelter_status": "present",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.671177,
+          41.773394
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0000",
+        "stop_name": "Broad St at Commons",
+        "external_stop_id": "CT-10000",
+        "heat_score": 55.04,
+        "shade_score": 85.23,
+        "vulnerability_score": 0.0,
+        "transit_score": 0.0,
+        "priority_score": 43.32,
+        "rank": 101,
+        "priority_category": "Moderate",
+        "dangerous_minutes": 540.0,
+        "persistence_minutes": 540,
+        "cumulative_exceedance": 87.9,
+        "peak_hour": 15,
+        "average_heat": 104.8,
+        "maximum_heat": 111.2,
+        "shade_deficit": 0.843,
+        "route_count": 1,
+        "shelter_status": "absent",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.695673,
+          41.748839
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0104",
+        "stop_name": "Franklin Ave at Arch",
+        "external_stop_id": "CT-10104",
+        "heat_score": 48.66,
+        "shade_score": 14.09,
+        "vulnerability_score": 100.0,
+        "transit_score": 0.67,
+        "priority_score": 43.09,
+        "rank": 102,
+        "priority_category": "Moderate",
+        "dangerous_minutes": 540.0,
+        "persistence_minutes": 540,
+        "cumulative_exceedance": 86.2,
+        "peak_hour": 15,
+        "average_heat": 104.6,
+        "maximum_heat": 111.7,
+        "shade_deficit": 0.521,
+        "route_count": 1,
+        "shelter_status": "present",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.693957,
+          41.778897
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0138",
+        "stop_name": "Windsor Ave at Gold",
+        "external_stop_id": "CT-10138",
+        "heat_score": 42.28,
+        "shade_score": 34.23,
+        "vulnerability_score": 47.65,
+        "transit_score": 53.69,
+        "priority_score": 43.05,
+        "rank": 103,
+        "priority_category": "Moderate",
+        "dangerous_minutes": 540.0,
+        "persistence_minutes": 540,
+        "cumulative_exceedance": 78.9,
+        "peak_hour": 14,
+        "average_heat": 103.8,
+        "maximum_heat": 109.4,
+        "shade_deficit": 0.708,
+        "route_count": 3,
+        "shelter_status": "absent",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.708689,
+          41.774132
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0048",
+        "stop_name": "Mather St at Arch",
+        "external_stop_id": "CT-10048",
+        "heat_score": 52.35,
+        "shade_score": 30.2,
+        "vulnerability_score": 64.43,
+        "transit_score": 8.72,
+        "priority_score": 42.68,
+        "rank": 104,
+        "priority_category": "Moderate",
+        "dangerous_minutes": 540.0,
+        "persistence_minutes": 540,
+        "cumulative_exceedance": 72.8,
+        "peak_hour": 16,
+        "average_heat": 103.1,
+        "maximum_heat": 109.4,
+        "shade_deficit": 0.691,
+        "route_count": 1,
+        "shelter_status": "absent",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.659695,
+          41.740723
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0075",
+        "stop_name": "New Britain Ave at Market",
+        "external_stop_id": "CT-10075",
+        "heat_score": 65.44,
+        "shade_score": 60.4,
+        "vulnerability_score": 1.34,
+        "transit_score": 5.37,
+        "priority_score": 42.35,
+        "rank": 105,
+        "priority_category": "Moderate",
+        "dangerous_minutes": 540.0,
+        "persistence_minutes": 540,
+        "cumulative_exceedance": 80.2,
+        "peak_hour": 16,
+        "average_heat": 103.9,
+        "maximum_heat": 109.3,
+        "shade_deficit": 0.77,
+        "route_count": 1,
+        "shelter_status": "absent",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.704282,
+          41.749338
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0056",
+        "stop_name": "Retreat Ave at Gold",
+        "external_stop_id": "CT-10056",
+        "heat_score": 50.0,
+        "shade_score": 28.86,
+        "vulnerability_score": 63.76,
+        "transit_score": 13.42,
+        "priority_score": 41.98,
+        "rank": 106,
+        "priority_category": "Moderate",
+        "dangerous_minutes": 540.0,
+        "persistence_minutes": 540,
+        "cumulative_exceedance": 67.6,
+        "peak_hour": 15,
+        "average_heat": 102.5,
+        "maximum_heat": 106.8,
+        "shade_deficit": 0.686,
+        "route_count": 1,
+        "shelter_status": "present",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.693773,
+          41.784311
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0054",
+        "stop_name": "Homestead Ave at Ann",
+        "external_stop_id": "CT-10054",
+        "heat_score": 17.11,
+        "shade_score": 13.42,
+        "vulnerability_score": 98.66,
+        "transit_score": 79.19,
+        "priority_score": 41.81,
+        "rank": 107,
+        "priority_category": "Moderate",
+        "dangerous_minutes": 480.0,
+        "persistence_minutes": 480,
+        "cumulative_exceedance": 74.7,
+        "peak_hour": 16,
+        "average_heat": 103.1,
+        "maximum_heat": 110.1,
+        "shade_deficit": 0.52,
+        "route_count": 4,
+        "shelter_status": "present",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.658564,
+          41.785266
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0055",
+        "stop_name": "Retreat Ave at Market",
+        "external_stop_id": "CT-10055",
+        "heat_score": 18.45,
+        "shade_score": 38.26,
+        "vulnerability_score": 59.73,
+        "transit_score": 85.23,
+        "priority_score": 41.68,
+        "rank": 108,
+        "priority_category": "Moderate",
+        "dangerous_minutes": 480.0,
+        "persistence_minutes": 480,
+        "cumulative_exceedance": 75.4,
+        "peak_hour": 16,
+        "average_heat": 103.4,
+        "maximum_heat": 109.2,
+        "shade_deficit": 0.723,
+        "route_count": 4,
+        "shelter_status": "absent",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.658053,
+          41.788233
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0042",
+        "stop_name": "Woodland St near School",
+        "external_stop_id": "CT-10042",
+        "heat_score": 42.62,
+        "shade_score": 45.64,
+        "vulnerability_score": 30.87,
+        "transit_score": 44.97,
+        "priority_score": 41.38,
+        "rank": 109,
+        "priority_category": "Moderate",
+        "dangerous_minutes": 480.0,
+        "persistence_minutes": 480,
+        "cumulative_exceedance": 92.4,
+        "peak_hour": 15,
+        "average_heat": 105.2,
+        "maximum_heat": 115.4,
+        "shade_deficit": 0.748,
+        "route_count": 2,
+        "shelter_status": "absent",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.696266,
+          41.743114
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0095",
+        "stop_name": "Asylum St near Library",
+        "external_stop_id": "CT-10095",
+        "heat_score": 47.31,
+        "shade_score": 16.11,
+        "vulnerability_score": 22.15,
+        "transit_score": 87.92,
+        "priority_score": 40.57,
+        "rank": 110,
+        "priority_category": "Moderate",
+        "dangerous_minutes": 540.0,
+        "persistence_minutes": 540,
+        "cumulative_exceedance": 85.7,
+        "peak_hour": 15,
+        "average_heat": 104.5,
+        "maximum_heat": 110.6,
+        "shade_deficit": 0.529,
+        "route_count": 4,
+        "shelter_status": "present",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.66572,
+          41.770331
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0137",
+        "stop_name": "Flatbush Ave near Library",
+        "external_stop_id": "CT-10137",
+        "heat_score": 32.55,
+        "shade_score": 7.38,
+        "vulnerability_score": 72.48,
+        "transit_score": 74.5,
+        "priority_score": 40.54,
+        "rank": 111,
+        "priority_category": "Moderate",
+        "dangerous_minutes": 480.0,
+        "persistence_minutes": 480,
+        "cumulative_exceedance": 79.7,
+        "peak_hour": 16,
+        "average_heat": 103.8,
+        "maximum_heat": 110.1,
+        "shade_deficit": 0.455,
+        "route_count": 4,
+        "shelter_status": "present",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.658861,
+          41.758561
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0067",
+        "stop_name": "Capen St near Park",
+        "external_stop_id": "CT-10067",
+        "heat_score": 69.47,
+        "shade_score": 22.15,
+        "vulnerability_score": 28.86,
+        "transit_score": 8.05,
+        "priority_score": 40.3,
+        "rank": 112,
+        "priority_category": "Moderate",
+        "dangerous_minutes": 540.0,
+        "persistence_minutes": 540,
+        "cumulative_exceedance": 81.2,
+        "peak_hour": 15,
+        "average_heat": 104.0,
+        "maximum_heat": 112.9,
+        "shade_deficit": 0.647,
+        "route_count": 1,
+        "shelter_status": "absent",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.683066,
+          41.787684
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0005",
+        "stop_name": "Sargeant St near Park",
+        "external_stop_id": "CT-10005",
+        "heat_score": 63.09,
+        "shade_score": 3.36,
+        "vulnerability_score": 58.39,
+        "transit_score": 16.78,
+        "priority_score": 40.27,
+        "rank": 113,
+        "priority_category": "Moderate",
+        "dangerous_minutes": 540.0,
+        "persistence_minutes": 540,
+        "cumulative_exceedance": 82.0,
+        "peak_hour": 14,
+        "average_heat": 104.1,
+        "maximum_heat": 108.4,
+        "shade_deficit": 0.432,
+        "route_count": 1,
+        "shelter_status": "present",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.678221,
+          41.786423
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0121",
+        "stop_name": "Prospect St near Hospital",
+        "external_stop_id": "CT-10121",
+        "heat_score": 18.45,
+        "shade_score": 28.19,
+        "vulnerability_score": 80.54,
+        "transit_score": 61.74,
+        "priority_score": 39.8,
+        "rank": 114,
+        "priority_category": "Low",
+        "dangerous_minutes": 480.0,
+        "persistence_minutes": 480,
+        "cumulative_exceedance": 77.6,
+        "peak_hour": 15,
+        "average_heat": 103.5,
+        "maximum_heat": 109.5,
+        "shade_deficit": 0.679,
+        "route_count": 3,
+        "shelter_status": "absent",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.670782,
+          41.788179
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0141",
+        "stop_name": "Blue Hills Ave at Bridge",
+        "external_stop_id": "CT-10141",
+        "heat_score": 32.88,
+        "shade_score": 63.09,
+        "vulnerability_score": 14.77,
+        "transit_score": 52.35,
+        "priority_score": 39.73,
+        "rank": 115,
+        "priority_category": "Low",
+        "dangerous_minutes": 540.0,
+        "persistence_minutes": 540,
+        "cumulative_exceedance": 74.4,
+        "peak_hour": 14,
+        "average_heat": 103.3,
+        "maximum_heat": 108.3,
+        "shade_deficit": 0.775,
+        "route_count": 3,
+        "shelter_status": "absent",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.701656,
+          41.745854
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0110",
+        "stop_name": "Mather St at Central",
+        "external_stop_id": "CT-10110",
+        "heat_score": 63.09,
+        "shade_score": 2.01,
+        "vulnerability_score": 19.46,
+        "transit_score": 57.05,
+        "priority_score": 38.19,
+        "rank": 116,
+        "priority_category": "Low",
+        "dangerous_minutes": 540.0,
+        "persistence_minutes": 540,
+        "cumulative_exceedance": 97.3,
+        "peak_hour": 16,
+        "average_heat": 105.8,
+        "maximum_heat": 111.2,
+        "shade_deficit": 0.425,
+        "route_count": 3,
+        "shelter_status": "present",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.694267,
+          41.771489
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0089",
+        "stop_name": "Barbour St at Pearl",
+        "external_stop_id": "CT-10089",
+        "heat_score": 2.02,
+        "shade_score": 73.83,
+        "vulnerability_score": 39.6,
+        "transit_score": 73.15,
+        "priority_score": 38.16,
+        "rank": 117,
+        "priority_category": "Low",
+        "dangerous_minutes": 480.0,
+        "persistence_minutes": 480,
+        "cumulative_exceedance": 68.0,
+        "peak_hour": 15,
+        "average_heat": 102.3,
+        "maximum_heat": 108.6,
+        "shade_deficit": 0.807,
+        "route_count": 3,
+        "shelter_status": "unknown",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.676725,
+          41.791298
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0147",
+        "stop_name": "Retreat Ave at Bridge",
+        "external_stop_id": "CT-10147",
+        "heat_score": 15.44,
+        "shade_score": 6.71,
+        "vulnerability_score": 85.23,
+        "transit_score": 79.87,
+        "priority_score": 36.88,
+        "rank": 118,
+        "priority_category": "Low",
+        "dangerous_minutes": 480.0,
+        "persistence_minutes": 480,
+        "cumulative_exceedance": 68.6,
+        "peak_hour": 15,
+        "average_heat": 102.5,
+        "maximum_heat": 109.5,
+        "shade_deficit": 0.452,
+        "route_count": 4,
+        "shelter_status": "present",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.660531,
+          41.790982
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0025",
+        "stop_name": "Jefferson St near School",
+        "external_stop_id": "CT-10025",
+        "heat_score": 73.82,
+        "shade_score": 16.78,
+        "vulnerability_score": 3.36,
+        "transit_score": 12.08,
+        "priority_score": 36.21,
+        "rank": 119,
+        "priority_category": "Low",
+        "dangerous_minutes": 540.0,
+        "persistence_minutes": 540,
+        "cumulative_exceedance": 91.7,
+        "peak_hour": 14,
+        "average_heat": 105.2,
+        "maximum_heat": 110.4,
+        "shade_deficit": 0.535,
+        "route_count": 1,
+        "shelter_status": "present",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.670684,
+          41.758152
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0143",
+        "stop_name": "Zion St at Ann",
+        "external_stop_id": "CT-10143",
+        "heat_score": 31.21,
+        "shade_score": 57.05,
+        "vulnerability_score": 34.9,
+        "transit_score": 16.11,
+        "priority_score": 36.14,
+        "rank": 120,
+        "priority_category": "Low",
+        "dangerous_minutes": 540.0,
+        "persistence_minutes": 540,
+        "cumulative_exceedance": 73.3,
+        "peak_hour": 15,
+        "average_heat": 103.1,
+        "maximum_heat": 108.0,
+        "shade_deficit": 0.768,
+        "route_count": 1,
+        "shelter_status": "unknown",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.662308,
+          41.790875
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0098",
+        "stop_name": "Vine St at Elm",
+        "external_stop_id": "CT-10098",
+        "heat_score": 51.67,
+        "shade_score": 5.37,
+        "vulnerability_score": 67.11,
+        "transit_score": 2.01,
+        "priority_score": 35.73,
+        "rank": 121,
+        "priority_category": "Low",
+        "dangerous_minutes": 540.0,
+        "persistence_minutes": 540,
+        "cumulative_exceedance": 87.6,
+        "peak_hour": 14,
+        "average_heat": 104.7,
+        "maximum_heat": 111.5,
+        "shade_deficit": 0.446,
+        "route_count": 1,
+        "shelter_status": "present",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.683006,
+          41.779134
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0007",
+        "stop_name": "Maple Ave at Morgan",
+        "external_stop_id": "CT-10007",
+        "heat_score": 21.81,
+        "shade_score": 36.24,
+        "vulnerability_score": 48.99,
+        "transit_score": 51.01,
+        "priority_score": 35.23,
+        "rank": 122,
+        "priority_category": "Low",
+        "dangerous_minutes": 480.0,
+        "persistence_minutes": 480,
+        "cumulative_exceedance": 74.6,
+        "peak_hour": 16,
+        "average_heat": 103.3,
+        "maximum_heat": 111.0,
+        "shade_deficit": 0.719,
+        "route_count": 2,
+        "shelter_status": "absent",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.684435,
+          41.786715
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0030",
+        "stop_name": "Broad St at Trumbull",
+        "external_stop_id": "CT-10030",
+        "heat_score": 14.43,
+        "shade_score": 47.65,
+        "vulnerability_score": 57.05,
+        "transit_score": 40.27,
+        "priority_score": 35.13,
+        "rank": 123,
+        "priority_category": "Low",
+        "dangerous_minutes": 480.0,
+        "persistence_minutes": 480,
+        "cumulative_exceedance": 72.0,
+        "peak_hour": 16,
+        "average_heat": 102.8,
+        "maximum_heat": 107.1,
+        "shade_deficit": 0.753,
+        "route_count": 2,
+        "shelter_status": "absent",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.658578,
+          41.738359
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0044",
+        "stop_name": "Sargeant St at Central",
+        "external_stop_id": "CT-10044",
+        "heat_score": 34.23,
+        "shade_score": 75.17,
+        "vulnerability_score": 8.05,
+        "transit_score": 6.71,
+        "priority_score": 35.1,
+        "rank": 124,
+        "priority_category": "Low",
+        "dangerous_minutes": 540.0,
+        "persistence_minutes": 540,
+        "cumulative_exceedance": 69.8,
+        "peak_hour": 15,
+        "average_heat": 102.8,
+        "maximum_heat": 107.6,
+        "shade_deficit": 0.813,
+        "route_count": 1,
+        "shelter_status": "unknown",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.657506,
+          41.789515
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0070",
+        "stop_name": "Oak St at Sheldon",
+        "external_stop_id": "CT-10070",
+        "heat_score": 6.04,
+        "shade_score": 55.7,
+        "vulnerability_score": 21.48,
+        "transit_score": 95.97,
+        "priority_score": 35.03,
+        "rank": 125,
+        "priority_category": "Low",
+        "dangerous_minutes": 480.0,
+        "persistence_minutes": 480,
+        "cumulative_exceedance": 68.2,
+        "peak_hour": 15,
+        "average_heat": 102.6,
+        "maximum_heat": 108.2,
+        "shade_deficit": 0.765,
+        "route_count": 5,
+        "shelter_status": "unknown",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.670943,
+          41.796249
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0092",
+        "stop_name": "New Britain Ave near Hospital",
+        "external_stop_id": "CT-10092",
+        "heat_score": 30.54,
+        "shade_score": 66.44,
+        "vulnerability_score": 28.19,
+        "transit_score": 2.68,
+        "priority_score": 34.87,
+        "rank": 126,
+        "priority_category": "Low",
+        "dangerous_minutes": 480.0,
+        "persistence_minutes": 480,
+        "cumulative_exceedance": 78.8,
+        "peak_hour": 14,
+        "average_heat": 103.6,
+        "maximum_heat": 108.7,
+        "shade_deficit": 0.788,
+        "route_count": 1,
+        "shelter_status": "absent",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.672958,
+          41.78638
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0084",
+        "stop_name": "Laurel St at Gold",
+        "external_stop_id": "CT-10084",
+        "heat_score": 23.82,
+        "shade_score": 22.82,
+        "vulnerability_score": 41.61,
+        "transit_score": 71.14,
+        "priority_score": 34.23,
+        "rank": 127,
+        "priority_category": "Low",
+        "dangerous_minutes": 480.0,
+        "persistence_minutes": 480,
+        "cumulative_exceedance": 76.6,
+        "peak_hour": 15,
+        "average_heat": 103.1,
+        "maximum_heat": 109.6,
+        "shade_deficit": 0.657,
+        "route_count": 3,
+        "shelter_status": "absent",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.665811,
+          41.738229
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0049",
+        "stop_name": "Mather St at Commons",
+        "external_stop_id": "CT-10049",
+        "heat_score": 44.3,
+        "shade_score": 2.68,
+        "vulnerability_score": 71.14,
+        "transit_score": 9.4,
+        "priority_score": 34.03,
+        "rank": 128,
+        "priority_category": "Low",
+        "dangerous_minutes": 480.0,
+        "persistence_minutes": 480,
+        "cumulative_exceedance": 91.7,
+        "peak_hour": 15,
+        "average_heat": 105.2,
+        "maximum_heat": 111.5,
+        "shade_deficit": 0.425,
+        "route_count": 1,
+        "shelter_status": "present",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.70282,
+          41.762394
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0116",
+        "stop_name": "Vine St at Church",
+        "external_stop_id": "CT-10116",
+        "heat_score": 11.41,
+        "shade_score": 90.6,
+        "vulnerability_score": 15.44,
+        "transit_score": 24.16,
+        "priority_score": 33.93,
+        "rank": 129,
+        "priority_category": "Low",
+        "dangerous_minutes": 480.0,
+        "persistence_minutes": 480,
+        "cumulative_exceedance": 70.1,
+        "peak_hour": 14,
+        "average_heat": 102.4,
+        "maximum_heat": 108.9,
+        "shade_deficit": 0.855,
+        "route_count": 2,
+        "shelter_status": "absent",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.661073,
+          41.792114
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0107",
+        "stop_name": "Albany Ave near Park",
+        "external_stop_id": "CT-10107",
+        "heat_score": 34.9,
+        "shade_score": 6.04,
+        "vulnerability_score": 50.34,
+        "transit_score": 55.7,
+        "priority_score": 33.89,
+        "rank": 130,
+        "priority_category": "Low",
+        "dangerous_minutes": 540.0,
+        "persistence_minutes": 540,
+        "cumulative_exceedance": 79.2,
+        "peak_hour": 15,
+        "average_heat": 103.8,
+        "maximum_heat": 109.8,
+        "shade_deficit": 0.449,
+        "route_count": 3,
+        "shelter_status": "present",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.661207,
+          41.759844
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0114",
+        "stop_name": "Wethersfield Ave at Commons",
+        "external_stop_id": "CT-10114",
+        "heat_score": 45.97,
+        "shade_score": 12.08,
+        "vulnerability_score": 38.93,
+        "transit_score": 30.2,
+        "priority_score": 33.72,
+        "rank": 131,
+        "priority_category": "Low",
+        "dangerous_minutes": 540.0,
+        "persistence_minutes": 540,
+        "cumulative_exceedance": 78.1,
+        "peak_hour": 14,
+        "average_heat": 103.7,
+        "maximum_heat": 108.7,
+        "shade_deficit": 0.487,
+        "route_count": 2,
+        "shelter_status": "present",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.663367,
+          41.773754
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0100",
+        "stop_name": "Prospect St at Morgan",
+        "external_stop_id": "CT-10100",
+        "heat_score": 44.63,
+        "shade_score": 29.53,
+        "vulnerability_score": 0.67,
+        "transit_score": 53.02,
+        "priority_score": 33.32,
+        "rank": 132,
+        "priority_category": "Low",
+        "dangerous_minutes": 540.0,
+        "persistence_minutes": 540,
+        "cumulative_exceedance": 84.3,
+        "peak_hour": 14,
+        "average_heat": 104.4,
+        "maximum_heat": 110.0,
+        "shade_deficit": 0.689,
+        "route_count": 3,
+        "shelter_status": "absent",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.686193,
+          41.781248
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0037",
+        "stop_name": "Zion St at Trumbull",
+        "external_stop_id": "CT-10037",
+        "heat_score": 16.45,
+        "shade_score": 4.7,
+        "vulnerability_score": 73.15,
+        "transit_score": 67.11,
+        "priority_score": 32.45,
+        "rank": 133,
+        "priority_category": "Low",
+        "dangerous_minutes": 480.0,
+        "persistence_minutes": 480,
+        "cumulative_exceedance": 77.4,
+        "peak_hour": 15,
+        "average_heat": 103.2,
+        "maximum_heat": 110.1,
+        "shade_deficit": 0.439,
+        "route_count": 3,
+        "shelter_status": "present",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.651971,
+          41.770909
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0127",
+        "stop_name": "Wethersfield Ave at High",
+        "external_stop_id": "CT-10127",
+        "heat_score": 40.94,
+        "shade_score": 41.61,
+        "vulnerability_score": 5.37,
+        "transit_score": 28.86,
+        "priority_score": 32.18,
+        "rank": 134,
+        "priority_category": "Low",
+        "dangerous_minutes": 540.0,
+        "persistence_minutes": 540,
+        "cumulative_exceedance": 77.3,
+        "peak_hour": 14,
+        "average_heat": 103.6,
+        "maximum_heat": 108.1,
+        "shade_deficit": 0.736,
+        "route_count": 2,
+        "shelter_status": "absent",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.655485,
+          41.76361
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0102",
+        "stop_name": "Garden St near Library",
+        "external_stop_id": "CT-10102",
+        "heat_score": 25.17,
+        "shade_score": 63.76,
+        "vulnerability_score": 6.71,
+        "transit_score": 27.52,
+        "priority_score": 31.48,
+        "rank": 135,
+        "priority_category": "Low",
+        "dangerous_minutes": 540.0,
+        "persistence_minutes": 540,
+        "cumulative_exceedance": 71.0,
+        "peak_hour": 15,
+        "average_heat": 102.9,
+        "maximum_heat": 109.8,
+        "shade_deficit": 0.778,
+        "route_count": 2,
+        "shelter_status": "absent",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.664982,
+          41.746479
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0142",
+        "stop_name": "Tower Ave near School",
+        "external_stop_id": "CT-10142",
+        "heat_score": 48.66,
+        "shade_score": 8.05,
+        "vulnerability_score": 31.54,
+        "transit_score": 23.49,
+        "priority_score": 31.31,
+        "rank": 136,
+        "priority_category": "Low",
+        "dangerous_minutes": 480.0,
+        "persistence_minutes": 480,
+        "cumulative_exceedance": 91.6,
+        "peak_hour": 15,
+        "average_heat": 105.1,
+        "maximum_heat": 110.6,
+        "shade_deficit": 0.457,
+        "route_count": 2,
+        "shelter_status": "present",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.676261,
+          41.749396
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0046",
+        "stop_name": "New Britain Ave at Arch",
+        "external_stop_id": "CT-10046",
+        "heat_score": 8.39,
+        "shade_score": 8.72,
+        "vulnerability_score": 83.89,
+        "transit_score": 47.65,
+        "priority_score": 29.46,
+        "rank": 137,
+        "priority_category": "Low",
+        "dangerous_minutes": 480.0,
+        "persistence_minutes": 480,
+        "cumulative_exceedance": 70.2,
+        "peak_hour": 14,
+        "average_heat": 102.7,
+        "maximum_heat": 107.9,
+        "shade_deficit": 0.457,
+        "route_count": 2,
+        "shelter_status": "present",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.657678,
+          41.751397
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0139",
+        "stop_name": "Asylum St at Trumbull",
+        "external_stop_id": "CT-10139",
+        "heat_score": 36.24,
+        "shade_score": 10.07,
+        "vulnerability_score": 36.91,
+        "transit_score": 25.5,
+        "priority_score": 28.22,
+        "rank": 138,
+        "priority_category": "Low",
+        "dangerous_minutes": 540.0,
+        "persistence_minutes": 540,
+        "cumulative_exceedance": 75.6,
+        "peak_hour": 15,
+        "average_heat": 103.4,
+        "maximum_heat": 109.2,
+        "shade_deficit": 0.458,
+        "route_count": 2,
+        "shelter_status": "present",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.706798,
+          41.774292
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0002",
+        "stop_name": "Prospect St at Arch",
+        "external_stop_id": "CT-10002",
+        "heat_score": 23.83,
+        "shade_score": 56.38,
+        "vulnerability_score": 7.38,
+        "transit_score": 15.44,
+        "priority_score": 27.42,
+        "rank": 139,
+        "priority_category": "Low",
+        "dangerous_minutes": 480.0,
+        "persistence_minutes": 480,
+        "cumulative_exceedance": 74.2,
+        "peak_hour": 15,
+        "average_heat": 103.2,
+        "maximum_heat": 108.6,
+        "shade_deficit": 0.766,
+        "route_count": 1,
+        "shelter_status": "unknown",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.662233,
+          41.778285
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0088",
+        "stop_name": "Woodland St at Church",
+        "external_stop_id": "CT-10088",
+        "heat_score": 3.02,
+        "shade_score": 24.16,
+        "vulnerability_score": 46.31,
+        "transit_score": 72.48,
+        "priority_score": 27.38,
+        "rank": 140,
+        "priority_category": "Low",
+        "dangerous_minutes": 420.0,
+        "persistence_minutes": 420,
+        "cumulative_exceedance": 69.2,
+        "peak_hour": 14,
+        "average_heat": 102.4,
+        "maximum_heat": 109.1,
+        "shade_deficit": 0.662,
+        "route_count": 3,
+        "shelter_status": "unknown",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.663999,
+          41.745153
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0039",
+        "stop_name": "Albany Ave at Gold",
+        "external_stop_id": "CT-10039",
+        "heat_score": 7.72,
+        "shade_score": 37.58,
+        "vulnerability_score": 38.26,
+        "transit_score": 46.31,
+        "priority_score": 27.08,
+        "rank": 141,
+        "priority_category": "Low",
+        "dangerous_minutes": 480.0,
+        "persistence_minutes": 480,
+        "cumulative_exceedance": 70.9,
+        "peak_hour": 15,
+        "average_heat": 102.8,
+        "maximum_heat": 108.4,
+        "shade_deficit": 0.721,
+        "route_count": 2,
+        "shelter_status": "unknown",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.659365,
+          41.739248
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0051",
+        "stop_name": "Capitol Ave at Morgan",
+        "external_stop_id": "CT-10051",
+        "heat_score": 11.41,
+        "shade_score": 12.75,
+        "vulnerability_score": 53.02,
+        "transit_score": 48.99,
+        "priority_score": 25.7,
+        "rank": 142,
+        "priority_category": "Low",
+        "dangerous_minutes": 480.0,
+        "persistence_minutes": 480,
+        "cumulative_exceedance": 71.3,
+        "peak_hour": 15,
+        "average_heat": 102.9,
+        "maximum_heat": 109.9,
+        "shade_deficit": 0.514,
+        "route_count": 2,
+        "shelter_status": "present",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.69358,
+          41.790737
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0034",
+        "stop_name": "Hudson St near Library",
+        "external_stop_id": "CT-10034",
+        "heat_score": 5.37,
+        "shade_score": 33.56,
+        "vulnerability_score": 40.94,
+        "transit_score": 39.6,
+        "priority_score": 24.67,
+        "rank": 143,
+        "priority_category": "Low",
+        "dangerous_minutes": 480.0,
+        "persistence_minutes": 480,
+        "cumulative_exceedance": 70.2,
+        "peak_hour": 15,
+        "average_heat": 102.6,
+        "maximum_heat": 108.8,
+        "shade_deficit": 0.699,
+        "route_count": 2,
+        "shelter_status": "absent",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.659532,
+          41.745311
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0135",
+        "stop_name": "Broad St near School",
+        "external_stop_id": "CT-10135",
+        "heat_score": 28.52,
+        "shade_score": 27.52,
+        "vulnerability_score": 18.79,
+        "transit_score": 17.45,
+        "priority_score": 24.66,
+        "rank": 144,
+        "priority_category": "Low",
+        "dangerous_minutes": 540.0,
+        "persistence_minutes": 540,
+        "cumulative_exceedance": 70.2,
+        "peak_hour": 14,
+        "average_heat": 102.8,
+        "maximum_heat": 108.1,
+        "shade_deficit": 0.675,
+        "route_count": 1,
+        "shelter_status": "unknown",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.652183,
+          41.755584
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0010",
+        "stop_name": "Capitol Ave at Sheldon",
+        "external_stop_id": "CT-10010",
+        "heat_score": 15.43,
+        "shade_score": 10.74,
+        "vulnerability_score": 17.45,
+        "transit_score": 50.34,
+        "priority_score": 19.9,
+        "rank": 145,
+        "priority_category": "Low",
+        "dangerous_minutes": 480.0,
+        "persistence_minutes": 480,
+        "cumulative_exceedance": 66.5,
+        "peak_hour": 16,
+        "average_heat": 102.4,
+        "maximum_heat": 111.4,
+        "shade_deficit": 0.464,
+        "route_count": 2,
+        "shelter_status": "present",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.664596,
+          41.738468
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0111",
+        "stop_name": "Garden St at Market",
+        "external_stop_id": "CT-10111",
+        "heat_score": 21.48,
+        "shade_score": 0.67,
+        "vulnerability_score": 24.83,
+        "transit_score": 22.15,
+        "priority_score": 17.05,
+        "rank": 146,
+        "priority_category": "Low",
+        "dangerous_minutes": 480.0,
+        "persistence_minutes": 480,
+        "cumulative_exceedance": 75.5,
+        "peak_hour": 15,
+        "average_heat": 103.3,
+        "maximum_heat": 111.0,
+        "shade_deficit": 0.394,
+        "route_count": 2,
+        "shelter_status": "present",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.652513,
+          41.741152
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0144",
+        "stop_name": "Affleck St at Central",
+        "external_stop_id": "CT-10144",
+        "heat_score": 11.07,
+        "shade_score": 26.85,
+        "vulnerability_score": 8.72,
+        "transit_score": 14.77,
+        "priority_score": 15.1,
+        "rank": 147,
+        "priority_category": "Low",
+        "dangerous_minutes": 480.0,
+        "persistence_minutes": 480,
+        "cumulative_exceedance": 67.1,
+        "peak_hour": 16,
+        "average_heat": 102.2,
+        "maximum_heat": 107.7,
+        "shade_deficit": 0.674,
+        "route_count": 1,
+        "shelter_status": "absent",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.650778,
+          41.753548
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0043",
+        "stop_name": "Russ St at Church",
+        "external_stop_id": "CT-10043",
+        "heat_score": 18.45,
+        "shade_score": 1.34,
+        "vulnerability_score": 32.21,
+        "transit_score": 6.04,
+        "priority_score": 15.06,
+        "rank": 148,
+        "priority_category": "Low",
+        "dangerous_minutes": 480.0,
+        "persistence_minutes": 480,
+        "cumulative_exceedance": 77.6,
+        "peak_hour": 15,
+        "average_heat": 103.6,
+        "maximum_heat": 111.3,
+        "shade_deficit": 0.42,
+        "route_count": 1,
+        "shelter_status": "present",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.70843,
+          41.763414
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0125",
+        "stop_name": "Vine St near Library",
+        "external_stop_id": "CT-10125",
+        "heat_score": 4.7,
+        "shade_score": 23.49,
+        "vulnerability_score": 2.68,
+        "transit_score": 18.79,
+        "priority_score": 11.11,
+        "rank": 149,
+        "priority_category": "Low",
+        "dangerous_minutes": 480.0,
+        "persistence_minutes": 480,
+        "cumulative_exceedance": 69.2,
+        "peak_hour": 16,
+        "average_heat": 102.5,
+        "maximum_heat": 108.7,
+        "shade_deficit": 0.661,
+        "route_count": 1,
+        "shelter_status": "unknown",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.678399,
+          41.792516
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stop_id": "stop-0050",
+        "stop_name": "Ward St at Commons",
+        "external_stop_id": "CT-10050",
+        "heat_score": 11.75,
+        "shade_score": 15.44,
+        "vulnerability_score": 2.01,
+        "transit_score": 10.07,
+        "priority_score": 10.47,
+        "rank": 150,
+        "priority_category": "Low",
+        "dangerous_minutes": 480.0,
+        "persistence_minutes": 480,
+        "cumulative_exceedance": 72.0,
+        "peak_hour": 14,
+        "average_heat": 103.0,
+        "maximum_heat": 109.1,
+        "shade_deficit": 0.527,
+        "route_count": 1,
+        "shelter_status": "present",
+        "scoring_version": "v1.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.678628,
+          41.786745
+        ]
+      }
+    }
+  ]
+}

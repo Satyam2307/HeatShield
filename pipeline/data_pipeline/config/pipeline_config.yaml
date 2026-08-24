@@ -1,0 +1,39 @@
+city:
+  name: Hartford
+  state: CT
+  fips: "09"
+  timezone: America/New_York
+  boundary_file: data/boundaries/hartford_geometry.json
+  bbox_file: data/boundaries/hartford_bbox.json
+
+analysis:
+  start_date: "2024-07-15T10:00:00-04:00"
+  end_date: "2024-07-15T18:00:00-04:00"
+  start_hour: 10
+  end_hour: 18
+  danger_threshold: 95.0
+  heat_metric: "heat_index"
+  heat_unit: "F"
+  buffer_meters: 100
+
+scoring:
+  weights:
+    heat: 0.40
+    shade: 0.25
+    vulnerability: 0.20
+    transit: 0.15
+  heat_weights:
+    exceedance: 0.50
+    duration: 0.30
+    persistence: 0.20
+
+transit:
+  source: CTtransit Hartford GTFS Proxy
+  transit_value_type: proxy
+  gtfs_url: null
+
+output:
+  parquet_dir: data/processed
+  geojson_path: data/processed/hartford_priority_scores.geojson
+  fixture_path: data/fixtures/hartford_demo.json
+  manifest_dir: data/manifests
