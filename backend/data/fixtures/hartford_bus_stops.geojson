@@ -1,0 +1,2705 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0000",
+        "external_stop_id": "CT-10000",
+        "name": "Broad St at Commons",
+        "route_count": 1,
+        "shelter_status": "absent",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.695673,
+          41.748839
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0001",
+        "external_stop_id": "CT-10001",
+        "name": "Zion St near Hospital",
+        "route_count": 2,
+        "shelter_status": "absent",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.700473,
+          41.775293
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0002",
+        "external_stop_id": "CT-10002",
+        "name": "Prospect St at Arch",
+        "route_count": 1,
+        "shelter_status": "unknown",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.662233,
+          41.778285
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0003",
+        "external_stop_id": "CT-10003",
+        "name": "Broad St at Morgan",
+        "route_count": 4,
+        "shelter_status": "absent",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.691795,
+          41.74075
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0004",
+        "external_stop_id": "CT-10004",
+        "name": "Zion St at Church",
+        "route_count": 6,
+        "shelter_status": "absent",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.662151,
+          41.780243
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0005",
+        "external_stop_id": "CT-10005",
+        "name": "Sargeant St near Park",
+        "route_count": 1,
+        "shelter_status": "present",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.678221,
+          41.786423
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0006",
+        "external_stop_id": "CT-10006",
+        "name": "Farmington Ave at Gold",
+        "route_count": 4,
+        "shelter_status": "absent",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.67134,
+          41.78293
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0007",
+        "external_stop_id": "CT-10007",
+        "name": "Maple Ave at Morgan",
+        "route_count": 2,
+        "shelter_status": "absent",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.684435,
+          41.786715
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0008",
+        "external_stop_id": "CT-10008",
+        "name": "Albany Ave at Bridge",
+        "route_count": 3,
+        "shelter_status": "absent",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.668785,
+          41.77738
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0009",
+        "external_stop_id": "CT-10009",
+        "name": "Homestead Ave at Commons",
+        "route_count": 2,
+        "shelter_status": "absent",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.697577,
+          41.76366
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0010",
+        "external_stop_id": "CT-10010",
+        "name": "Capitol Ave at Sheldon",
+        "route_count": 2,
+        "shelter_status": "present",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.664596,
+          41.738468
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0011",
+        "external_stop_id": "CT-10011",
+        "name": "Flatbush Ave at Market",
+        "route_count": 3,
+        "shelter_status": "absent",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.655472,
+          41.770165
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0012",
+        "external_stop_id": "CT-10012",
+        "name": "Tower Ave at High",
+        "route_count": 2,
+        "shelter_status": "absent",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.655384,
+          41.763449
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0013",
+        "external_stop_id": "CT-10013",
+        "name": "Ward St at Temple",
+        "route_count": 2,
+        "shelter_status": "unknown",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.696447,
+          41.771244
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0014",
+        "external_stop_id": "CT-10014",
+        "name": "Park St at Church",
+        "route_count": 1,
+        "shelter_status": "present",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.704285,
+          41.765598
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0015",
+        "external_stop_id": "CT-10015",
+        "name": "Blue Hills Ave at Temple",
+        "route_count": 3,
+        "shelter_status": "absent",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.67013,
+          41.771977
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0016",
+        "external_stop_id": "CT-10016",
+        "name": "Main St at Church",
+        "route_count": 3,
+        "shelter_status": "absent",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.697161,
+          41.7693
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0017",
+        "external_stop_id": "CT-10017",
+        "name": "Wethersfield Ave at Central",
+        "route_count": 2,
+        "shelter_status": "absent",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.69619,
+          41.77474
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0018",
+        "external_stop_id": "CT-10018",
+        "name": "Washington St at Plaza",
+        "route_count": 5,
+        "shelter_status": "unknown",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.696406,
+          41.766036
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0019",
+        "external_stop_id": "CT-10019",
+        "name": "Oak St at Market",
+        "route_count": 1,
+        "shelter_status": "absent",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.694198,
+          41.774615
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0020",
+        "external_stop_id": "CT-10020",
+        "name": "Jefferson St at Elm",
+        "route_count": 3,
+        "shelter_status": "absent",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.679019,
+          41.783275
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0021",
+        "external_stop_id": "CT-10021",
+        "name": "Woodland St at Gold",
+        "route_count": 1,
+        "shelter_status": "unknown",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.705952,
+          41.757505
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0022",
+        "external_stop_id": "CT-10022",
+        "name": "Hudson St at Pearl",
+        "route_count": 6,
+        "shelter_status": "absent",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.653342,
+          41.740311
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0023",
+        "external_stop_id": "CT-10023",
+        "name": "Babcock St at Ann",
+        "route_count": 2,
+        "shelter_status": "unknown",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.705077,
+          41.775905
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0024",
+        "external_stop_id": "CT-10024",
+        "name": "Zion St at Market",
+        "route_count": 3,
+        "shelter_status": "absent",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.686342,
+          41.748131
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0025",
+        "external_stop_id": "CT-10025",
+        "name": "Jefferson St near School",
+        "route_count": 1,
+        "shelter_status": "present",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.670684,
+          41.758152
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0026",
+        "external_stop_id": "CT-10026",
+        "name": "Retreat Ave near Park",
+        "route_count": 2,
+        "shelter_status": "present",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.691701,
+          41.771475
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0027",
+        "external_stop_id": "CT-10027",
+        "name": "Albany Ave at Plaza",
+        "route_count": 2,
+        "shelter_status": "absent",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.673241,
+          41.749194
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0028",
+        "external_stop_id": "CT-10028",
+        "name": "Russ St near Park",
+        "route_count": 2,
+        "shelter_status": "absent",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.699503,
+          41.743203
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0029",
+        "external_stop_id": "CT-10029",
+        "name": "Broad St near Hospital",
+        "route_count": 2,
+        "shelter_status": "absent",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.662128,
+          41.746805
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0030",
+        "external_stop_id": "CT-10030",
+        "name": "Broad St at Trumbull",
+        "route_count": 2,
+        "shelter_status": "absent",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.658578,
+          41.738359
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0031",
+        "external_stop_id": "CT-10031",
+        "name": "Barbour St at Commons",
+        "route_count": 2,
+        "shelter_status": "absent",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.658715,
+          41.750417
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0032",
+        "external_stop_id": "CT-10032",
+        "name": "Albany Ave near School",
+        "route_count": 4,
+        "shelter_status": "unknown",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.695452,
+          41.750488
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0033",
+        "external_stop_id": "CT-10033",
+        "name": "Zion St at Elm",
+        "route_count": 5,
+        "shelter_status": "unknown",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.706832,
+          41.775433
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0034",
+        "external_stop_id": "CT-10034",
+        "name": "Hudson St near Library",
+        "route_count": 2,
+        "shelter_status": "absent",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.659532,
+          41.745311
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0035",
+        "external_stop_id": "CT-10035",
+        "name": "Blue Hills Ave at Arch",
+        "route_count": 5,
+        "shelter_status": "absent",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.709306,
+          41.758496
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0036",
+        "external_stop_id": "CT-10036",
+        "name": "Babcock St near Library",
+        "route_count": 1,
+        "shelter_status": "absent",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.695029,
+          41.778189
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0037",
+        "external_stop_id": "CT-10037",
+        "name": "Zion St at Trumbull",
+        "route_count": 3,
+        "shelter_status": "present",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.651971,
+          41.770909
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0038",
+        "external_stop_id": "CT-10038",
+        "name": "Jefferson St at Ann",
+        "route_count": 1,
+        "shelter_status": "absent",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.676197,
+          41.766177
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0039",
+        "external_stop_id": "CT-10039",
+        "name": "Albany Ave at Gold",
+        "route_count": 2,
+        "shelter_status": "unknown",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.659365,
+          41.739248
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0040",
+        "external_stop_id": "CT-10040",
+        "name": "Capitol Ave at Bridge",
+        "route_count": 1,
+        "shelter_status": "absent",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.67711,
+          41.770893
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0041",
+        "external_stop_id": "CT-10041",
+        "name": "Tower Ave at Market",
+        "route_count": 3,
+        "shelter_status": "absent",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.677391,
+          41.754615
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0042",
+        "external_stop_id": "CT-10042",
+        "name": "Woodland St near School",
+        "route_count": 2,
+        "shelter_status": "absent",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.696266,
+          41.743114
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0043",
+        "external_stop_id": "CT-10043",
+        "name": "Russ St at Church",
+        "route_count": 1,
+        "shelter_status": "present",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.70843,
+          41.763414
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0044",
+        "external_stop_id": "CT-10044",
+        "name": "Sargeant St at Central",
+        "route_count": 1,
+        "shelter_status": "unknown",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.657506,
+          41.789515
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0045",
+        "external_stop_id": "CT-10045",
+        "name": "Babcock St at Central",
+        "route_count": 5,
+        "shelter_status": "present",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.668677,
+          41.772924
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0046",
+        "external_stop_id": "CT-10046",
+        "name": "New Britain Ave at Arch",
+        "route_count": 2,
+        "shelter_status": "present",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.657678,
+          41.751397
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0047",
+        "external_stop_id": "CT-10047",
+        "name": "Tower Ave at Plaza",
+        "route_count": 2,
+        "shelter_status": "unknown",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.691399,
+          41.777625
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0048",
+        "external_stop_id": "CT-10048",
+        "name": "Mather St at Arch",
+        "route_count": 1,
+        "shelter_status": "absent",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.659695,
+          41.740723
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0049",
+        "external_stop_id": "CT-10049",
+        "name": "Mather St at Commons",
+        "route_count": 1,
+        "shelter_status": "present",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.70282,
+          41.762394
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0050",
+        "external_stop_id": "CT-10050",
+        "name": "Ward St at Commons",
+        "route_count": 1,
+        "shelter_status": "present",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.678628,
+          41.786745
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0051",
+        "external_stop_id": "CT-10051",
+        "name": "Capitol Ave at Morgan",
+        "route_count": 2,
+        "shelter_status": "present",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.69358,
+          41.790737
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0052",
+        "external_stop_id": "CT-10052",
+        "name": "New Britain Ave at Gold",
+        "route_count": 4,
+        "shelter_status": "unknown",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.6573,
+          41.760195
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0053",
+        "external_stop_id": "CT-10053",
+        "name": "Asylum St at Ann",
+        "route_count": 3,
+        "shelter_status": "absent",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.661921,
+          41.789648
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0054",
+        "external_stop_id": "CT-10054",
+        "name": "Homestead Ave at Ann",
+        "route_count": 4,
+        "shelter_status": "present",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.658564,
+          41.785266
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0055",
+        "external_stop_id": "CT-10055",
+        "name": "Retreat Ave at Market",
+        "route_count": 4,
+        "shelter_status": "absent",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.658053,
+          41.788233
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0056",
+        "external_stop_id": "CT-10056",
+        "name": "Retreat Ave at Gold",
+        "route_count": 1,
+        "shelter_status": "present",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.693773,
+          41.784311
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0057",
+        "external_stop_id": "CT-10057",
+        "name": "Homestead Ave at Morgan",
+        "route_count": 3,
+        "shelter_status": "absent",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.692319,
+          41.78859
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0058",
+        "external_stop_id": "CT-10058",
+        "name": "Tower Ave at Ann",
+        "route_count": 3,
+        "shelter_status": "unknown",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.653828,
+          41.742151
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0059",
+        "external_stop_id": "CT-10059",
+        "name": "Laurel St at Sheldon",
+        "route_count": 2,
+        "shelter_status": "unknown",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.71059,
+          41.771987
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0060",
+        "external_stop_id": "CT-10060",
+        "name": "Sargeant St near Hospital",
+        "route_count": 1,
+        "shelter_status": "absent",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.685528,
+          41.767235
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0061",
+        "external_stop_id": "CT-10061",
+        "name": "Magnolia St at Central",
+        "route_count": 3,
+        "shelter_status": "absent",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.692197,
+          41.754463
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0062",
+        "external_stop_id": "CT-10062",
+        "name": "Barbour St near Hospital",
+        "route_count": 3,
+        "shelter_status": "absent",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.669076,
+          41.769374
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0063",
+        "external_stop_id": "CT-10063",
+        "name": "Russ St at Central",
+        "route_count": 2,
+        "shelter_status": "unknown",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.665868,
+          41.74579
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0064",
+        "external_stop_id": "CT-10064",
+        "name": "Ward St at Bridge",
+        "route_count": 3,
+        "shelter_status": "absent",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.693856,
+          41.748031
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0065",
+        "external_stop_id": "CT-10065",
+        "name": "Preston St at Ann",
+        "route_count": 3,
+        "shelter_status": "absent",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.685144,
+          41.748249
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0066",
+        "external_stop_id": "CT-10066",
+        "name": "Barbour St at High",
+        "route_count": 1,
+        "shelter_status": "present",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.671177,
+          41.773394
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0067",
+        "external_stop_id": "CT-10067",
+        "name": "Capen St near Park",
+        "route_count": 1,
+        "shelter_status": "absent",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.683066,
+          41.787684
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0068",
+        "external_stop_id": "CT-10068",
+        "name": "Mather St at Gold",
+        "route_count": 1,
+        "shelter_status": "unknown",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.681854,
+          41.750127
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0069",
+        "external_stop_id": "CT-10069",
+        "name": "Sigourney St at Church",
+        "route_count": 2,
+        "shelter_status": "unknown",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.680369,
+          41.738114
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0070",
+        "external_stop_id": "CT-10070",
+        "name": "Oak St at Sheldon",
+        "route_count": 5,
+        "shelter_status": "unknown",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.670943,
+          41.796249
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0071",
+        "external_stop_id": "CT-10071",
+        "name": "Magnolia St near Hospital",
+        "route_count": 4,
+        "shelter_status": "absent",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.674403,
+          41.779595
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0072",
+        "external_stop_id": "CT-10072",
+        "name": "Preston St near School",
+        "route_count": 2,
+        "shelter_status": "present",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.656476,
+          41.781107
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0073",
+        "external_stop_id": "CT-10073",
+        "name": "Jefferson St near Library",
+        "route_count": 3,
+        "shelter_status": "absent",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.672827,
+          41.78248
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0074",
+        "external_stop_id": "CT-10074",
+        "name": "Homestead Ave at Sheldon",
+        "route_count": 2,
+        "shelter_status": "absent",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.708119,
+          41.752715
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0075",
+        "external_stop_id": "CT-10075",
+        "name": "New Britain Ave at Market",
+        "route_count": 1,
+        "shelter_status": "absent",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.704282,
+          41.749338
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0076",
+        "external_stop_id": "CT-10076",
+        "name": "Garden St near Hospital",
+        "route_count": 2,
+        "shelter_status": "absent",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.678815,
+          41.760778
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0077",
+        "external_stop_id": "CT-10077",
+        "name": "Preston St at Elm",
+        "route_count": 5,
+        "shelter_status": "absent",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.657519,
+          41.770693
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0078",
+        "external_stop_id": "CT-10078",
+        "name": "Capen St at Commons",
+        "route_count": 3,
+        "shelter_status": "absent",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.688431,
+          41.790282
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0079",
+        "external_stop_id": "CT-10079",
+        "name": "Retreat Ave at Arch",
+        "route_count": 2,
+        "shelter_status": "present",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.674995,
+          41.748673
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0080",
+        "external_stop_id": "CT-10080",
+        "name": "North Main St at Ann",
+        "route_count": 4,
+        "shelter_status": "unknown",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.691824,
+          41.777107
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0081",
+        "external_stop_id": "CT-10081",
+        "name": "Asylum St at Pearl",
+        "route_count": 3,
+        "shelter_status": "present",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.655863,
+          41.771697
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0082",
+        "external_stop_id": "CT-10082",
+        "name": "Blue Hills Ave at Sheldon",
+        "route_count": 2,
+        "shelter_status": "absent",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.683913,
+          41.738118
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0083",
+        "external_stop_id": "CT-10083",
+        "name": "Capen St at Arch",
+        "route_count": 4,
+        "shelter_status": "absent",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.665043,
+          41.758506
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0084",
+        "external_stop_id": "CT-10084",
+        "name": "Laurel St at Gold",
+        "route_count": 3,
+        "shelter_status": "absent",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.665811,
+          41.738229
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0085",
+        "external_stop_id": "CT-10085",
+        "name": "Sigourney St at Market",
+        "route_count": 4,
+        "shelter_status": "absent",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.671939,
+          41.781762
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0086",
+        "external_stop_id": "CT-10086",
+        "name": "Wethersfield Ave near Park",
+        "route_count": 5,
+        "shelter_status": "absent",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.697972,
+          41.764361
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0087",
+        "external_stop_id": "CT-10087",
+        "name": "Oak St at Bridge",
+        "route_count": 5,
+        "shelter_status": "absent",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.696857,
+          41.757872
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0088",
+        "external_stop_id": "CT-10088",
+        "name": "Woodland St at Church",
+        "route_count": 3,
+        "shelter_status": "unknown",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.663999,
+          41.745153
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0089",
+        "external_stop_id": "CT-10089",
+        "name": "Barbour St at Pearl",
+        "route_count": 3,
+        "shelter_status": "unknown",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.676725,
+          41.791298
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0090",
+        "external_stop_id": "CT-10090",
+        "name": "Woodland St at Bridge",
+        "route_count": 4,
+        "shelter_status": "absent",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.6977,
+          41.778226
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0091",
+        "external_stop_id": "CT-10091",
+        "name": "Prospect St at Elm",
+        "route_count": 4,
+        "shelter_status": "unknown",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.679437,
+          41.776014
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0092",
+        "external_stop_id": "CT-10092",
+        "name": "New Britain Ave near Hospital",
+        "route_count": 1,
+        "shelter_status": "absent",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.672958,
+          41.78638
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0093",
+        "external_stop_id": "CT-10093",
+        "name": "Zion St near Library",
+        "route_count": 2,
+        "shelter_status": "unknown",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.672021,
+          41.773187
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0094",
+        "external_stop_id": "CT-10094",
+        "name": "Sigourney St at Pearl",
+        "route_count": 2,
+        "shelter_status": "absent",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.675674,
+          41.754983
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0095",
+        "external_stop_id": "CT-10095",
+        "name": "Asylum St near Library",
+        "route_count": 4,
+        "shelter_status": "present",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.66572,
+          41.770331
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0096",
+        "external_stop_id": "CT-10096",
+        "name": "Oak St at Arch",
+        "route_count": 3,
+        "shelter_status": "absent",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.699636,
+          41.784466
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0097",
+        "external_stop_id": "CT-10097",
+        "name": "Capen St near Library",
+        "route_count": 3,
+        "shelter_status": "present",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.700963,
+          41.749964
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0098",
+        "external_stop_id": "CT-10098",
+        "name": "Vine St at Elm",
+        "route_count": 1,
+        "shelter_status": "present",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.683006,
+          41.779134
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0099",
+        "external_stop_id": "CT-10099",
+        "name": "Ward St at Morgan",
+        "route_count": 2,
+        "shelter_status": "absent",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.669417,
+          41.753985
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0100",
+        "external_stop_id": "CT-10100",
+        "name": "Prospect St at Morgan",
+        "route_count": 3,
+        "shelter_status": "absent",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.686193,
+          41.781248
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0101",
+        "external_stop_id": "CT-10101",
+        "name": "Barbour St at Sheldon",
+        "route_count": 1,
+        "shelter_status": "absent",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.697162,
+          41.742481
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0102",
+        "external_stop_id": "CT-10102",
+        "name": "Garden St near Library",
+        "route_count": 2,
+        "shelter_status": "absent",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.664982,
+          41.746479
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0103",
+        "external_stop_id": "CT-10103",
+        "name": "Broad St at Market",
+        "route_count": 2,
+        "shelter_status": "absent",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.665107,
+          41.772001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0104",
+        "external_stop_id": "CT-10104",
+        "name": "Franklin Ave at Arch",
+        "route_count": 1,
+        "shelter_status": "present",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.693957,
+          41.778897
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0105",
+        "external_stop_id": "CT-10105",
+        "name": "Broad St at Elm",
+        "route_count": 3,
+        "shelter_status": "absent",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.672814,
+          41.781673
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0106",
+        "external_stop_id": "CT-10106",
+        "name": "Park St at Arch",
+        "route_count": 5,
+        "shelter_status": "absent",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.68525,
+          41.746431
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0107",
+        "external_stop_id": "CT-10107",
+        "name": "Albany Ave near Park",
+        "route_count": 3,
+        "shelter_status": "present",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.661207,
+          41.759844
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0108",
+        "external_stop_id": "CT-10108",
+        "name": "Woodland St at Pearl",
+        "route_count": 6,
+        "shelter_status": "present",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.703601,
+          41.769896
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0109",
+        "external_stop_id": "CT-10109",
+        "name": "Retreat Ave at Plaza",
+        "route_count": 2,
+        "shelter_status": "unknown",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.66484,
+          41.772592
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0110",
+        "external_stop_id": "CT-10110",
+        "name": "Mather St at Central",
+        "route_count": 3,
+        "shelter_status": "present",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.694267,
+          41.771489
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0111",
+        "external_stop_id": "CT-10111",
+        "name": "Garden St at Market",
+        "route_count": 2,
+        "shelter_status": "present",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.652513,
+          41.741152
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0112",
+        "external_stop_id": "CT-10112",
+        "name": "Maple Ave at Elm",
+        "route_count": 2,
+        "shelter_status": "absent",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.697888,
+          41.769224
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0113",
+        "external_stop_id": "CT-10113",
+        "name": "Affleck St at Pearl",
+        "route_count": 3,
+        "shelter_status": "unknown",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.694849,
+          41.752529
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0114",
+        "external_stop_id": "CT-10114",
+        "name": "Wethersfield Ave at Commons",
+        "route_count": 2,
+        "shelter_status": "present",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.663367,
+          41.773754
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0115",
+        "external_stop_id": "CT-10115",
+        "name": "Park St at Ann",
+        "route_count": 4,
+        "shelter_status": "absent",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.696265,
+          41.743819
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0116",
+        "external_stop_id": "CT-10116",
+        "name": "Vine St at Church",
+        "route_count": 2,
+        "shelter_status": "absent",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.661073,
+          41.792114
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0117",
+        "external_stop_id": "CT-10117",
+        "name": "Vine St at Pearl",
+        "route_count": 3,
+        "shelter_status": "unknown",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.687642,
+          41.751879
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0118",
+        "external_stop_id": "CT-10118",
+        "name": "Ward St at Elm",
+        "route_count": 6,
+        "shelter_status": "absent",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.666724,
+          41.77243
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0119",
+        "external_stop_id": "CT-10119",
+        "name": "Vine St at Arch",
+        "route_count": 1,
+        "shelter_status": "absent",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.665355,
+          41.764171
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0120",
+        "external_stop_id": "CT-10120",
+        "name": "Farmington Ave near Library",
+        "route_count": 2,
+        "shelter_status": "absent",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.673009,
+          41.765487
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0121",
+        "external_stop_id": "CT-10121",
+        "name": "Prospect St near Hospital",
+        "route_count": 3,
+        "shelter_status": "absent",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.670782,
+          41.788179
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0122",
+        "external_stop_id": "CT-10122",
+        "name": "Flatbush Ave at Arch",
+        "route_count": 2,
+        "shelter_status": "unknown",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.678344,
+          41.763199
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0123",
+        "external_stop_id": "CT-10123",
+        "name": "Main St at Commons",
+        "route_count": 2,
+        "shelter_status": "present",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.687537,
+          41.766905
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0124",
+        "external_stop_id": "CT-10124",
+        "name": "Hudson St near School",
+        "route_count": 4,
+        "shelter_status": "present",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.680338,
+          41.773603
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0125",
+        "external_stop_id": "CT-10125",
+        "name": "Vine St near Library",
+        "route_count": 1,
+        "shelter_status": "unknown",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.678399,
+          41.792516
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0126",
+        "external_stop_id": "CT-10126",
+        "name": "Maple Ave at Central",
+        "route_count": 3,
+        "shelter_status": "absent",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.674641,
+          41.749836
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0127",
+        "external_stop_id": "CT-10127",
+        "name": "Wethersfield Ave at High",
+        "route_count": 2,
+        "shelter_status": "absent",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.655485,
+          41.76361
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0128",
+        "external_stop_id": "CT-10128",
+        "name": "Preston St near Library",
+        "route_count": 2,
+        "shelter_status": "absent",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.680941,
+          41.751952
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0129",
+        "external_stop_id": "CT-10129",
+        "name": "Magnolia St at High",
+        "route_count": 4,
+        "shelter_status": "absent",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.688834,
+          41.792156
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0130",
+        "external_stop_id": "CT-10130",
+        "name": "Magnolia St at Arch",
+        "route_count": 4,
+        "shelter_status": "absent",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.66323,
+          41.760726
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0131",
+        "external_stop_id": "CT-10131",
+        "name": "Hudson St at High",
+        "route_count": 2,
+        "shelter_status": "absent",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.694191,
+          41.77139
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0132",
+        "external_stop_id": "CT-10132",
+        "name": "Blue Hills Ave near School",
+        "route_count": 5,
+        "shelter_status": "unknown",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.692056,
+          41.782298
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0133",
+        "external_stop_id": "CT-10133",
+        "name": "Blue Hills Ave at Gold",
+        "route_count": 4,
+        "shelter_status": "absent",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.651211,
+          41.749806
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0134",
+        "external_stop_id": "CT-10134",
+        "name": "New Britain Ave near Library",
+        "route_count": 5,
+        "shelter_status": "present",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.692955,
+          41.764325
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0135",
+        "external_stop_id": "CT-10135",
+        "name": "Broad St near School",
+        "route_count": 1,
+        "shelter_status": "unknown",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.652183,
+          41.755584
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0136",
+        "external_stop_id": "CT-10136",
+        "name": "North Main St at Pearl",
+        "route_count": 4,
+        "shelter_status": "unknown",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.696304,
+          41.773642
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0137",
+        "external_stop_id": "CT-10137",
+        "name": "Flatbush Ave near Library",
+        "route_count": 4,
+        "shelter_status": "present",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.658861,
+          41.758561
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0138",
+        "external_stop_id": "CT-10138",
+        "name": "Windsor Ave at Gold",
+        "route_count": 3,
+        "shelter_status": "absent",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.708689,
+          41.774132
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0139",
+        "external_stop_id": "CT-10139",
+        "name": "Asylum St at Trumbull",
+        "route_count": 2,
+        "shelter_status": "present",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.706798,
+          41.774292
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0140",
+        "external_stop_id": "CT-10140",
+        "name": "Sigourney St at Plaza",
+        "route_count": 2,
+        "shelter_status": "absent",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.690417,
+          41.761703
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0141",
+        "external_stop_id": "CT-10141",
+        "name": "Blue Hills Ave at Bridge",
+        "route_count": 3,
+        "shelter_status": "absent",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.701656,
+          41.745854
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0142",
+        "external_stop_id": "CT-10142",
+        "name": "Tower Ave near School",
+        "route_count": 2,
+        "shelter_status": "present",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.676261,
+          41.749396
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0143",
+        "external_stop_id": "CT-10143",
+        "name": "Zion St at Ann",
+        "route_count": 1,
+        "shelter_status": "unknown",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.662308,
+          41.790875
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0144",
+        "external_stop_id": "CT-10144",
+        "name": "Affleck St at Central",
+        "route_count": 1,
+        "shelter_status": "absent",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.650778,
+          41.753548
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0145",
+        "external_stop_id": "CT-10145",
+        "name": "Russ St at Morgan",
+        "route_count": 3,
+        "shelter_status": "unknown",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.682558,
+          41.749707
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0146",
+        "external_stop_id": "CT-10146",
+        "name": "Russ St at Trumbull",
+        "route_count": 5,
+        "shelter_status": "absent",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.671532,
+          41.752018
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0147",
+        "external_stop_id": "CT-10147",
+        "name": "Retreat Ave at Bridge",
+        "route_count": 4,
+        "shelter_status": "present",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.660531,
+          41.790982
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0148",
+        "external_stop_id": "CT-10148",
+        "name": "Franklin Ave at Church",
+        "route_count": 5,
+        "shelter_status": "absent",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.701022,
+          41.750539
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "stop-0149",
+        "external_stop_id": "CT-10149",
+        "name": "Franklin Ave at Pearl",
+        "route_count": 5,
+        "shelter_status": "absent",
+        "source": "gtfs_cttransit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.693537,
+          41.762331
+        ]
+      }
+    }
+  ]
+}

@@ -319,7 +319,10 @@ def save_priority_geojson(analysis_id: str = "fixture-001") -> Path:
     """Generate and save the MVP GeoJSON deliverable."""
     geojson = export_priority_geojson(analysis_id)
     output_path = PROCESSED_DIR / "hartford_priority_scores.geojson"
-    output_path.parent.mkdir(parents=True, exist_ok=True)
-    with open(output_path, "w") as f:
-        json.dump(geojson, f, indent=2)
+    try:
+        output_path.parent.mkdir(parents=True, exist_ok=True)
+        with open(output_path, "w") as f:
+            json.dump(geojson, f, indent=2)
+    except OSError:
+        pass
     return output_path

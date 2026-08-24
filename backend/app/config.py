@@ -22,13 +22,19 @@ BACKEND_DIR = _THIS_DIR.parent
 PROJECT_ROOT = BACKEND_DIR.parent
 
 # ---------------------------------------------------------------------------
-# Path helpers
+# Path helpers — support both local monorepo and Vercel backend bundle
 # ---------------------------------------------------------------------------
-DATA_DIR = PROJECT_ROOT / "data"
+if (PROJECT_ROOT / "data" / "fixtures").exists():
+    DATA_DIR = PROJECT_ROOT / "data"
+elif (BACKEND_DIR / "data" / "fixtures").exists():
+    DATA_DIR = BACKEND_DIR / "data"
+else:
+    DATA_DIR = Path.cwd() / "data"
+
 BOUNDARIES_DIR = DATA_DIR / "boundaries"
 FIXTURES_DIR = DATA_DIR / "fixtures"
 PROCESSED_DIR = DATA_DIR / "processed"
-CACHE_DIR = Path(os.getenv("CACHE_DIR", str(DATA_DIR / "cache")))
+CACHE_DIR = Path("/tmp/cache") if os.getenv("VERCEL") else Path(os.getenv("CACHE_DIR", str(DATA_DIR / "cache")))
 
 
 # ---------------------------------------------------------------------------
