@@ -1,0 +1,36 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "version": 2,
+  "builds": [
+    {
+      "src": "frontend/package.json",
+      "use": "@vercel/next"
+    },
+    {
+      "src": "backend/app/main.py",
+      "use": "@vercel/python"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/health",
+      "dest": "backend/app/main.py"
+    },
+    {
+      "src": "/api/v1/(.*)",
+      "dest": "backend/app/main.py"
+    },
+    {
+      "src": "/docs",
+      "dest": "backend/app/main.py"
+    },
+    {
+      "src": "/openapi.json",
+      "dest": "backend/app/main.py"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "frontend/$1"
+    }
+  ]
+}
